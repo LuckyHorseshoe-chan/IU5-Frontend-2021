@@ -1,0 +1,502 @@
+@media screen{
+    div{
+    }
+    .main{
+ 
+
+
+        /* Desktop - 1 */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        position: relative;
+        width: 1579px;
+        height: 7769.07px;
+
+        /* dark background */
+
+        background: #181818;
+    }
+    .header{
+
+        /* Desktop HEADER 05 */
+
+
+        /* Auto Layout */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+        position: absolute;
+        width: 1579px;
+        height: 1675px;
+        left: 0px;
+        top: 0px;
+
+        /* dark background */
+
+        background: #181818;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+   .features{
+        
+        /* dark FEATURE 5 */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+
+        position: absolute;
+        width: 1579px;
+        height: 1112px;
+        left: 0px;
+        top: 1775px;
+
+        /* dark background */
+
+        background: #181818;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+   }
+   .contents{
+       /* dark CONTENT 7 */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: absolute;
+        width: 1579px;
+        height: 930.52px;
+        left: 0px;
+        top: 2987px;
+
+        /* dark background */
+
+        background: #181818;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+   }
+   .gallery{
+       /* dark CONTENT 8 */
+    
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        position: absolute;
+        width: 1579px;
+        height: 1016px;
+        left: 0px;
+        top: 4017.52px;
+        /* dark background */
+
+        background: #181818;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
+   }
+   .partners{
+
+       /* light PARTNER 1 */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: absolute;
+        width: 1579px;
+        height: 484.55px;
+        left: 0px;
+        top: 5133.52px;
+
+        /* dark background */
+
+        background: #181818;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 4;
+        align-self: stretch;
+        flex-grow: 0;
+   }
+   .testimonials{
+ 
+       /* light TESTIMONIAL 4 */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: absolute;
+        width: 1579px;
+        height: 884px;
+        left: 0px;
+        top: 5718.07px;
+
+        /* dark background */
+
+        background: #181818;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 5;
+        align-self: stretch;
+        flex-grow: 0;
+   }
+   .cta{
+  
+       /* dark CTA 8 */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: absolute;
+        width: 1579px;
+        height: 530px;
+        left: 0px;
+        top: 6702.07px;
+
+        /* dark background */
+
+        background: #181818;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 6;
+        align-self: stretch;
+        flex-grow: 0;
+   }
+   .footer{
+   
+       /* light FOOTER 4 */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: absolute;
+        width: 1579px;
+        height: 437px;
+        left: 0px;
+        top: 7332.07px;
+
+        /* dark background */
+
+        background: #181818;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 7;
+        align-self: stretch;
+        flex-grow: 0;
+   }
+}
+@media only screen and (max-device-width: 549px){
+    div{
+    }
+    .main{
+ 
+
+
+        /* iPhone 11 Pro Max - 1 */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        position: relative;
+        width: 549px;
+        height: 11134.49px;
+
+        /* dark background */
+
+        background: #181818;
+    }
+    .header{
+  
+
+        /* Mobile HEADER 05 */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        position: absolute;
+        width: 549px;
+        height: 1235px;
+        left: 0px;
+        top: 0px;
+
+        /* light background */
+
+        background: #181818;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        
+    }
+   .features{
+    
+        /* dark FEATURE 5 */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        position: absolute;
+        width: 549px;
+        height: 1414px;
+        left: 0px;
+        top: 1336px;
+
+        /* dark background */
+
+        background: #181818;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+   }
+   .contents{
+     /* dark CONTENT 7 */
+
+
+      /* Auto Layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      position: absolute;
+      width: 549px;
+      height: 1519.96px;
+      left: 0px;
+      top: 2851px;
+
+      /* dark background */
+
+      background: #181818;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 2;
+      align-self: stretch;
+      flex-grow: 0;
+ }
+ .gallery{
+     /* dark CONTENT 8 */
+ 
+
+      /* Auto Layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      
+      position: absolute;
+      width: 549px;
+      height: 1671px;
+      left: 0px;
+      top: 4471.96px;
+      /* dark background */
+
+      background: #181818;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 3;
+      align-self: stretch;
+      flex-grow: 0;
+ }
+ .partners{
+  
+     /* light PARTNER 1 */
+
+
+      /* Auto Layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      position: absolute;
+      width: 549px;
+      height: 615.55px;
+      left: 0px;
+      top: 6243.96px;
+
+      /* dark background */
+
+      background: #181818;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 4;
+      align-self: stretch;
+      flex-grow: 0;
+ }
+ .testimonials{
+  
+     /* light TESTIMONIAL 4 */
+
+
+      /* Auto Layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+
+      position: absolute;
+      width: 549px;
+      height: 1805px;
+      left: 0px;
+      top: 6960.5px;
+
+      /* dark background */
+
+      background: #181818;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 5;
+      align-self: stretch;
+      flex-grow: 0;
+ }
+ .cta{
+   
+     /* dark CTA 8 */
+
+
+      /* Auto Layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      position: absolute;
+      width: 549px;
+      height: 868px;
+      left: 0px;
+      top: 8866.5px;
+
+      /* dark background */
+
+      background: #181818;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 6;
+      align-self: stretch;
+      flex-grow: 0;
+ }
+ .footer{
+   
+     /* light FOOTER 4 */
+
+
+      /* Auto Layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+
+      position: absolute;
+      width: 549px;
+      height: 1298.99px;
+      left: 0px;
+      top: 9835.5px;
+
+      /* dark background */
+
+      background: #181818;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 7;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 0px;
+ }
+}

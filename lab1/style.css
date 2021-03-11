@@ -1,0 +1,41 @@
+#h2 {
+    color:rgb(169,169,169);
+    font-weight: unset;
+   }
+h2.grey{
+    color:#A9A9A9;
+    font-weight: unset;
+}
+p.form{
+    padding: 10px;
+    margin: 10px;
+}
+p.form::first-letter{
+    color: black;
+    font-family: "Times New Roman";
+}
+p::selection {
+    color: white; /* Цвет текста */
+    background: blue; /* Цвет фона */
+   }
+p::first-letter{
+    font-size: 14pt;
+    font-family: "Arial";
+    color:grey;
+}
+span.form{
+    font-size: 20px;
+    font-weight: bold;
+}
+h1 {
+    font-size: 250%; /* Размер шрифта в процентах */ 
+   } 
+h2{
+    font-size: x-large;
+}
+a:visited {
+    color: #900060;
+   }
+a:active {
+    color: #f00; 
+   } 

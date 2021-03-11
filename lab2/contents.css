@@ -1,0 +1,1553 @@
+@media only screen and (min-device-width: 1000px){
+    .ccontent{
+        /* content */
+
+    
+         /* Auto Layout */
+    
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 0px;
+    
+         position: absolute;
+         width: 985px;
+         height: 830.52px;
+         left: 297px;
+         top: 50px;
+    
+    
+         /* Inside Auto Layout */
+    
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+    }
+    .textcontent{
+        /* Text Content */
+
+    
+    
+         /* Auto Layout */
+    
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 0px;
+    
+         position: static;
+         width: 591px;
+         height: 162px;
+         left: 197px;
+         top: 0px;
+    
+    
+         /* Inside Auto Layout */
+    
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+    }
+    .csecondheadline{
+        /* Second Headline */
+
+    
+     /* Auto Layout */
+    
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+    
+         position: static;
+         width: 245px;
+         height: 82px;
+         left: 173px;
+         top: 0px;
+    
+    
+         /* Inside Auto Layout */
+    
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+         margin: 0px 0px;
+    }
+    .text-contents{
+        /* Contents */
+    
+    
+         position: static;
+         left: 4.08%;
+         right: 4.08%;
+         top: 12.2%;
+         bottom: 12.2%;
+    
+         /* Second Headline */
+    
+         font-family: Graphik;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 52px;
+         line-height: 62px;
+         /* identical to box height, or 119% */
+    
+         letter-spacing: 0.2px;
+    
+         /* light text */
+    
+         color: #FFFFFF;
+    
+         /* Inside Auto Layout */
+    
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+         margin: 0px 10px;
+    }
+    .csubheading{
+        /* Sub Heading */
+    
+    
+         /* Auto Layout */
+    
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+    
+         position: static;
+         width: 591px;
+         height: 80px;
+         left: 0px;
+         top: 82px;
+    
+    
+         /* Inside Auto Layout */
+    
+         flex: none;
+         order: 1;
+         flex-grow: 0;
+         margin: 0px 0px;
+    }
+    .wefocus{
+        /* We focus on ergonomics and meeting you where you work. It's only a keystroke away. */
+
+    
+         position: static;
+         left: 1.69%;
+         right: 1.69%;
+         top: 12.5%;
+         bottom: 12.5%;
+    
+         /* Sub Heading */
+    
+         font-family: Graphik;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 30px;
+         /* or 150% */
+    
+         text-align: center;
+         letter-spacing: 0.2px;
+    
+         /* light text */
+    
+         color: #FFFFFF;
+    
+         /* Inside Auto Layout */
+    
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+         margin: 0px 10px;
+    }
+    .ccards{
+        /* Cards */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 985px;
+        height: 624.52px;
+        left: 0px;
+        top: 206px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin-top: 44px;
+    }
+    .cardwork{
+        
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+        position: static;
+        width: 476px;
+        height: 624.52px;
+        left: 0px;
+        top: 0px;
+    
+        /* light background */
+    
+        background: #FFFFFF;
+        border: 1px solid #D3D3D3;
+        box-sizing: border-box;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .workheading{
+  
+        /* heading */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 288px;
+        height: 152px;
+        left: 94px;
+        top: 40px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-bottom: 67px;
+        margin-top: 40px;
+    }
+    .worktitle{
+        /* Title */
+
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 70px;
+        height: 50px;
+        left: 109px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .textwork{
+
+        height: 30px;
+        width: 50px;
+        border-radius: nullpx;
+        /* Work */
+    
+    
+        position: static;
+    
+        /* Title */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.1px;
+    
+        /* first text */
+    
+        color: #000000;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 10px;
+    }
+    .workpargraphe{
+
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 288px;
+        height: 92px;
+        left: 0px;
+        top: 60px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 10px 0px 0px 0px;
+    }
+    .worktextpar{
+    
+        height: 72px;
+        width: 268px;
+        border-radius: nullpx;
+    
+        /* Ever wondered if you're too reliant on a client for work? Slate helps you identify . */
+    
+    
+        position: static;
+    
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.2px;
+    
+        /* second text */
+    
+        color: #5C5C5C;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 10px;
+    }
+    .csignup{
+     
+        /* button */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 148px;
+        height: 52px;
+        left: 164px;
+        top: 249px;
+    
+        /* primary */
+    
+        background: url(images/SignUp.png);
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .carddesign{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 40px;
+    
+    
+        position: static;
+        width: 476px;
+        height: 620px;
+        left: 509px;
+        top: 2.26px;
+    
+        /* light background */
+    
+        background: #FFFFFF;
+        border: 1px solid #D3D3D3;
+        box-sizing: border-box;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 33px;
+    }
+    .boardsnotifications{
+        
+        /* Boards Notifications */
+    
+    
+        position: static;
+        width: 379px;
+        height: 276px;
+        left: 48.5px;
+        top: 304px;
+    
+        background: url(images/BoardsNotifications.png);
+        /* shadow */
+    
+        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+        border-radius: 14px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        margin: 30px 0px;
+    }
+    .ctry{
+        /* button */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 148px;
+        height: 52px;
+        left: 164px;
+        top: 222px;
+    
+        /* primary */
+    
+        background: url(images/buttontry.svg);
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        
+    }
+    .ctrytext{
+        /* text */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    
+        position: static;
+        width: 76px;
+        height: 45px;
+        left: 36px;
+        top: 3.5px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .ctexttryfor{
+        height: 25px;
+        width: 56px;
+        left: 10px;
+        top: 10px;
+        border-radius: nullpx;
+    
+        /* Try For Free */
+    
+    
+        position: static;
+    
+        /* Button */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        text-align: center;
+        /* identical to box height, or 147% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .cheading{
+     
+        /* heading */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 288px;
+        height: 152px;
+        left: 94px;
+        top: 40px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    .designtitle{
+      
+        /* Title */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    
+        position: static;
+        width: 222px;
+        height: 50px;
+        left: 33px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .textdesign{
+ 
+        height: 30px;
+        width: 202px;
+        border-radius: nullpx;
+    
+        /* Design with real data */
+    
+    
+        position: static;
+        left: 4.5%;
+        right: 4.5%;
+        top: 20%;
+        bottom: 20%;
+    
+        /* Title */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.1px;
+    
+        /* first text */
+    
+        color: #000000;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .designparagraphe{
+      
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    
+        position: static;
+        width: 288px;
+        height: 92px;
+        left: 0px;
+        top: 60px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 10px 0px;
+    }
+    .textpardes{
+   
+        height: 72px;
+        width: 268px;
+        border-radius: nullpx;
+        /* Ever wondered if you're too reliant on a client for work? Slate helps you identify . */
+    
+    
+        position: static;
+        left: 10px;
+        top: 10px;
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.2px;
+    
+        /* second text */
+    
+        color: #5C5C5C;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px
+    }
+    .macbook{
+        /* Macbook Pro */
+    
+    
+        position: absolute;
+        width: 405.12px;
+        height: 226.52px;
+        left: 35.44px;
+        top: 564px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+    }
+    .screenmask{
+        /* SCREEN MASK */
+    
+    
+        position: absolute;
+        width: 312.33px;
+        height: 195.18px;
+        left: 46.4px;
+        top: 9.13px;
+    
+        background: url(images/ScreenMask.svg);
+    }
+    .grip{
+        /* grip */
+    
+    
+        position: absolute;
+        width: 54.16px;
+        height: 5.02px;
+        left: 177.38px;
+        top: 213.44px;
+    
+        background: #9FA2A5;
+    }
+    .screenbackground{
+        /* Screen background */
+    
+    
+        position: absolute;
+        width: 330.58px;
+        height: 222.42px;
+        left: 37.27px;
+        top: 0px;
+    
+        background: #000000;
+        border: 1.52131px solid #9FA2A5;
+        box-sizing: border-box;
+        border-radius: 4.56393px 4.56393px 0px 0px;
+    }
+    .base{
+        /* Base */
+    
+    
+        position: absolute;
+        width: 405.12px;
+        height: 8.37px;
+        left: 0px;
+        top: 213.44px;
+    
+        background: #D8D8D8;
+    }
+    .basebottom{
+        /* Base Bottom */
+    
+    
+        position: absolute;
+        width: 405.12px;
+        height: 4.72px;
+        left: 0px;
+        top: 221.81px;
+    
+        background: #9FA2A5;
+    }
+}
+@media only screen and (max-device-width: 549px){
+    .ccontent{
+        /* content */
+
+    
+         /* Auto Layout */
+    
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 0px;
+    
+         position: relative;
+         width: 389px;
+         height: 1419.96px;
+         left: 0px;
+         top: 50px;
+    
+    
+         /* Inside Auto Layout */
+    
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+    }
+    .textcontent{
+        /* Text Content */
+   
+    
+    
+         /* Auto Layout */
+    
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 0px;
+    
+         position: absolute;
+         width: 308px;
+         height: 192px;
+         left: 40.5px;
+         top: 0px;
+    
+    
+         /* Inside Auto Layout */
+    
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+    }
+    .csecondheadline{
+        /* Second Headline */
+  
+    
+     /* Auto Layout */
+    
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+    
+         position: relative;
+         width: 245px;
+         height: 82px;
+         left: 0px;
+         top: 0px;
+    
+    
+         /* Inside Auto Layout */
+    
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+         margin: 0px 0px;
+    }
+    .text-contents{
+
+        /* Contents */
+    
+    
+         position: absolute;
+         left: 4.08%;
+         right: 4.08%;
+         top: 12.2%;
+         bottom: 12.2%;
+            
+         /* Second Headline */
+    
+         font-family: Graphik;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 52px;
+         line-height: 62px;
+         /* identical to box height, or 119% */
+    
+         letter-spacing: 0.2px;
+    
+         /* light text */
+    
+         color: #FFFFFF;
+    
+         /* Inside Auto Layout */
+    
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+    }
+    .csubheading{
+        /* Sub Heading */
+ 
+    
+         /* Auto Layout */
+    
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+    
+         position: absolute;
+         width: 308px;
+         height: 110px;
+         left: 0px;
+         top: 82px;
+    
+    
+         /* Inside Auto Layout */
+    
+         flex: none;
+         order: 1;
+         flex-grow: 0;
+         margin: 0px 0px;
+    }
+    .wefocus{
+        /* We focus on ergonomics and meeting you where you work. It's only a keystroke away. */
+   
+    
+        height: 90px;
+        width: 288px;
+        border-radius: nullpx;
+
+         position: absolute;
+         left: 0px;
+         top: 10px;
+    
+         /* Sub Heading */
+    
+         font-family: Graphik;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 30px;
+         /* or 150% */
+    
+         text-align: center;
+         letter-spacing: 0.2px;
+    
+         /* light text */
+    
+         color: #FFFFFF;
+    
+         /* Inside Auto Layout */
+    
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+    }
+    .ccards{
+        /* Cards */
+
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: relative;
+        width: 389px;
+        height: 1183.96px;
+        left: 0px;
+        top: 236px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .cardwork{
+        
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+        position: relative;
+        width: 353px;
+        height: 578px;
+        left: 0px;
+        top: 0px;
+    
+        /* light background */
+    
+        background: #FFFFFF;
+        border: 1px solid #D3D3D3;
+        box-sizing: border-box;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .workheading{
+ 
+        /* heading */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 288px;
+        height: 152px;
+        left: 94px;
+        top: 40px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-bottom: 67px;
+        margin-top: 40px;
+    }
+    .worktitle{
+        /* Title */
+
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 70px;
+        height: 50px;
+        left: 109px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .textwork{
+ 
+        height: 30px;
+        width: 50px;
+        border-radius: nullpx;
+        /* Work */
+    
+    
+        position: static;
+    
+        /* Title */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.1px;
+    
+        /* first text */
+    
+        color: #000000;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 10px;
+    }
+    .workpargraphe{
+    
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 288px;
+        height: 92px;
+        left: 0px;
+        top: 60px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 10px 0px 0px 0px;
+    }
+    .worktextpar{
+
+        height: 72px;
+        width: 268px;
+        border-radius: nullpx;
+    
+        /* Ever wondered if you're too reliant on a client for work? Slate helps you identify . */
+    
+    
+        position: static;
+    
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.2px;
+    
+        /* second text */
+    
+        color: #5C5C5C;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 10px;
+    }
+    .csignup{
+
+        /* button */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: absolute;
+        width: 148px;
+        height: 52px;
+        left: 100px;
+        top: 249px;
+    
+        /* primary */
+    
+        background: url(images/SignUp.png);
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .carddesign{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    
+        position: relative;
+        width: 353px;
+        height: 578px;
+        left: 0px;
+        top: 33px;
+    
+        /* light background */
+    
+        background: #FFFFFF;
+        border: 1px solid #D3D3D3;
+        box-sizing: border-box;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .boardsnotifications{
+
+        /* Boards Notifications */
+    
+    
+        position: absolute;
+        width: 280px;
+        height: 204px;
+        left: 36.5px;
+        top: 334px;
+    
+        background: url(images/BoardsNotifications.png);
+        /* shadow */
+    
+        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+        border-radius: 14px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .ctry{
+        /* button */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 148px;
+        height: 52px;
+        left: 102.5px;
+        top: 252px;
+    
+        /* primary */
+    
+        background: url(images/buttontry.png);
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+        
+    }
+    .ctrytext{
+        /* text */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    
+        position: static;
+        width: 76px;
+        height: 45px;
+        left: 36px;
+        top: 3.5px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .ctexttryfor{
+        height: 25px;
+        width: 56px;
+        left: 10px;
+        top: 10px;
+        border-radius: nullpx;
+    
+        /* Try For Free */
+    
+    
+        position: static;
+    
+        /* Button */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        text-align: center;
+        /* identical to box height, or 147% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .cheading{
+  
+        /* heading */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: relative;
+        width: 288px;
+        height: 182px;
+        left: 0px;
+        top: 40px;
+            
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .designtitle{
+   
+        /* Title */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    
+        position: absolute;
+        width: 139px;
+        height: 80px;
+        left: 74.5px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .textdesign{
+  
+        height: 60px;
+        width: 119px;
+        border-radius: nullpx;
+    
+        /* Design with real data */
+    
+    
+        position: absolute;
+        left: 0px;
+        top: 10px;
+    
+        /* Title */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.1px;
+    
+        /* first text */
+    
+        color: #000000;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .designparagraphe{
+     
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    
+        position: absolute;
+        width: 288px;
+        height: 92px;
+        left: 0px;
+        top: 90px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .textpardes{
+  
+        height: 72px;
+        width: 268px;
+        border-radius: nullpx;
+        /* Ever wondered if you're too reliant on a client for work? Slate helps you identify . */
+    
+    
+        position: static;
+        left: 10px;
+        top: 10px;
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.2px;
+    
+        /* second text */
+    
+        color: #5C5C5C;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px
+    }
+    .macbook{
+        /* Macbook Pro */
+
+    
+        position: absolute;
+        width: 297.03px;
+        height: 174.96px;
+        left: 25.48px;
+        top: 358px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+    }
+    .screenmask{
+        /* SCREEN MASK */
+    
+    
+        position: relative;
+        width: 228.99px;
+        height: 150.75px;
+        left: 34.02px;
+        top: 7.05px;
+    
+        background: url(images/ScreenMask.svg);
+    }
+    .grip{
+        /* grip */
+    
+    
+        position: absolute;
+        width: 39.71px;
+        height: 3.88px;
+        left: 130.06px;
+        top: 164.85px;
+    
+        background: #9FA2A5;
+    }
+    .screenbackground{
+        /* Screen background */
+    
+    
+        position: absolute;
+        width: 242.38px;
+        height: 171.78px;
+        left: 27.33px;
+        top: 0px;
+    
+        background: #000000;
+        border: 1.52131px solid #9FA2A5;
+        box-sizing: border-box;
+        border-radius: 4.56393px 4.56393px 0px 0px;
+    }
+    .base{
+        /* Base */
+    
+    
+        position: absolute;
+        width: 297.03px;
+        height: 6.46px;
+        left: 0px;
+        top: 164.85px;
+    
+        background: #D8D8D8;
+    }
+    .basebottom{
+        /* Base Bottom */
+    
+    
+        position: absolute;
+        width: 297.03px;
+        height: 3.64px;
+        left: 0px;
+        top: 171.31px;
+    
+        background: #9FA2A5;
+    }
+}

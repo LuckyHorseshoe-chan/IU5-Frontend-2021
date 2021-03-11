@@ -1,0 +1,503 @@
+@media only screen and (min-device-width: 1000px){
+    .header-text{
+        width: 1579px;
+        height: 393px;
+        position: absolute;
+        top: 154px;
+        left: 0px;
+        /* Text */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ 
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+
+    }
+    .header-headline{
+        
+        /* headline */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+
+        position: relative;
+        width: 729px;
+        height: 196px;
+        left: 0px;
+        top: 50px;
+
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .header-headline-text{
+    
+        width: 709px;
+        height: 176px;
+        /* Work at the speed of thought */
+
+
+        position: static;
+        left: 1.37%;
+        right: 1.37%;
+        top: 5.1%;
+        bottom: 5.1%;
+
+        /* Headline */
+
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 80px;
+        line-height: 88px;
+        /* or 110% */
+
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* light text */
+
+        color: #FFFFFF;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .header-subheading{
+        
+        /* Sub Heading */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+
+        position: relative;
+        width: 602px;
+        height: 80px;
+        left: 0px;
+        top: 263px;
+
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .header-subheading-text{
+      
+        width: 582px;
+        height: 60px;
+        /* Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule. */
+
+
+        position: static;
+        left: 1.66%;
+        right: 1.66%;
+        top: 12.5%;
+        bottom: 12.5%;
+
+        /* Sub Heading */
+
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* light text */
+
+        color: #FFFFFF;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 37px 10px;
+    }
+    .header-buttons{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        width: 307px;
+        height: 65px;
+        left: 636px;
+        top: 582px;
+        position: absolute;
+    }
+    .buttonlearn{
+        background:url(images/buttonlearn.png);
+        width: 136px;
+        height: 65px;
+        position: relative;
+        top: 0px;
+        left: 171px;
+    }
+    .textlearn{
+        /* Learn More */
+
+
+        position: static;
+        left: 13.16%;
+        right: 13.16%;
+        top: 22.22%;
+        bottom: 22.22%;
+
+        /* Button */
+
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        /* identical to box height, or 147% */
+
+        letter-spacing: 0.2px;
+
+        /* light background */
+
+        color: #FFFFFF;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .buttontry{
+        background:url(images/buttontry.png);
+        width: 136px;
+        height: 65px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .texttry{
+        /* Try For */
+
+
+        position: static;
+        left: 13.16%;
+        right: 13.16%;
+        top: 22.22%;
+        bottom: 22.22%;
+
+        /* Button */
+
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        /* identical to box height, or 147% */
+
+        letter-spacing: 0.2px;
+
+        /* light text */
+
+        color: #FFFFFF;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .screens{
+       background: url(images/desktop/screens.svg);
+       width: 1579px;
+       height: 993px;
+       position: absolute;
+       top: 682px;
+    }
+}
+@media only screen and (max-device-width: 549px){
+    .header-text{
+        
+        /* text content */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+        position: absolute;
+        width: 402px;
+        height: 353px;
+        left: 73.5px;
+        top: 164px;
+
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .header-headline{
+       
+        /* headline */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+
+        position: relative;
+        width: 314px;
+        height: 206px;
+        left: 0px;
+        top: 0px;
+
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .header-headline-text{
+        
+        height: 186px;
+        width: 294px;
+        left: 10px;
+        top: 0px;
+        border-radius: nullpx;
+        position: relative;
+
+        /* Work at the speed of thought */
+
+        /* Second Headline */
+
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 52px;
+        line-height: 62px;
+        /* or 119% */
+
+        text-align: center;
+        letter-spacing: 0.2px;
+        /* or 110% */
+
+        /* light text */
+
+        color: #FFFFFF;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+    .header-subheading{
+        
+        /* Sub Heading */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+
+        position: relative;
+        width: 402px;
+        height: 140px;
+        left: 0px;
+        top: 213px;
+
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .header-subheading-text{
+        
+        height: 120px;
+        width: 382px;
+        left: 10px;
+        top: 0px;
+        border-radius: nullpx;
+        position: relative;
+
+        /* Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule. */
+
+        /* Sub Heading */
+
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* light text */
+
+        color: #FFFFFF;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .header-buttons{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        width: 136px;
+        height: 151px;
+        left: 206.5px;
+        top: 574px;
+        position: absolute;
+    }
+    .buttonlearn{
+        background:url(images/buttonlearn.png);
+        width: 136px;
+        height: 65px;
+        position: relative;
+        top: 86px;
+        left: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .textlearn{
+        /* Learn More */
+
+
+        position: static;
+        left: 13.16%;
+        right: 13.16%;
+        top: 22.22%;
+        bottom: 22.22%;
+
+        /* Button */
+
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        /* identical to box height, or 147% */
+
+        letter-spacing: 0.2px;
+
+        /* light background */
+
+        color: #FFFFFF;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .buttontry{
+        background:url(images/desktop/buttontry.svg);
+        width: 136px;
+        height: 65px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .texttry{
+        /* Try For */
+
+
+        position: static;
+        left: 13.16%;
+        right: 13.16%;
+        top: 22.22%;
+        bottom: 22.22%;
+
+        /* Button */
+
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        /* identical to box height, or 147% */
+
+        letter-spacing: 0.2px;
+
+        /* light text */
+
+        color: #FFFFFF;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .screens{
+        background: url(images/screens_mob.svg);
+        height: 453px;
+        width: 549px;
+        left: 0px;
+        top: 782px;
+        border-radius: 0px;
+        position: absolute;
+    }
+}

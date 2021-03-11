@@ -1,0 +1,357 @@
+@media only screen and (min-device-width: 1000px){
+    .ctacontent{
+
+        /* content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 1219px;
+        height: 370px;
+        left: calc(50% - 1219px/2);
+        top: 80px;
+    
+        background: #343434;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 33px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .mediacontent{
+    
+        background: url(images/media-content.svg);
+        /* media-content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 2px;
+    
+        position: static;
+        width: 589px;
+        height: 364px;
+        right: 0px;
+        top: 3px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .leftcontent{
+   
+        /* left-content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+        position: static;
+        width: 544px;
+        height: 247px;
+        left: 0px;
+        top: 61.5px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 86px 0px 0px;
+    }
+    .ctabutton{
+     
+        /* button */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: absolute;
+        width: 190px;
+        height: 52px;
+        left: 94px;
+        top: 239.5px;
+    
+        /* primary */
+    
+        background: url(images/buttoncta.png);
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+     
+    }
+    .ctasecondheadline{
+     
+        /* Second Headline */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: absolute;
+        width: 499px;
+        height: 124px;
+        left: 94px;
+        top: 78.5px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .opentype{
+        
+        height: 124px;
+        width: 479px;
+        border-radius: nullpx;
+    
+        /* OpenType features and Variable fonts */
+    
+    
+        position: static;
+        left: 2%;
+        right: 2%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Second Headline */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 52px;
+        line-height: 62px;
+        /* or 119% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+}
+@media only screen and (max-device-width: 549px){
+    .ctacontent{
+   
+        /* content */
+    
+    
+        /* Auto Layout */
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+
+      position: absolute;
+      width: 549px;
+      height: 868px;
+      left: 0px;
+      top: 0px;
+
+      /* dark background */
+
+      background: #181818;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 6;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 0px;
+    }
+    .mediacontent{
+
+        
+        
+        background: url(images/media_mob.svg);
+        /* media-content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 541px;
+        height: 383px;
+        right: 4px;
+        top: 485px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .leftcontent{
+       
+        /* left-content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: absolute;
+        width: 407px;
+        height: 483px;
+        left: 71px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .ctabutton{
+      
+        /* button */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 190px;
+        height: 52px;
+        left: 108.5px;
+        top: 327px;
+    
+        /* primary */
+    
+        background: url(images/buttoncta.png);
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .ctasecondheadline{
+       
+        /* Second Headline */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 356px;
+        height: 186px;
+        left: 25.5px;
+        top: 104px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .opentype{
+    
+        height: 186px;
+        width: 336px;
+        left: 0px;
+        top: 0px;
+        border-radius: nullpx;
+
+    
+        /* OpenType features and Variable fonts */
+    
+    
+        position: absolute;
+    
+        /* Second Headline */
+        text-align: center;
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 52px;
+        line-height: 62px;
+        /* or 119% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+}

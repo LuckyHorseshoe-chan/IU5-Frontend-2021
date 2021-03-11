@@ -1,0 +1,946 @@
+@media only screen and (min-device-width: 1000px){
+    .gcontent{
+        /* content */
+        
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 1087px;
+        height: 916px;
+        left: calc(50% - 1087px/2);
+        top: 50px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 50px 0px;
+    }
+    .gtextcontent{
+        
+        /* Text Content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 591px;
+        height: 162px;
+        left: 248px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .gsecondheadline{
+        
+        /* Second Headline */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 193px;
+        height: 82px;
+        left: 199px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .textgallery{
+        
+        height: 62px;
+        width: 173px;
+        border-radius: nullpx;
+    
+        /* Gallery */
+    
+    
+        position: static;
+        left: 5.18%;
+        right: 5.18%;
+        top: 12.2%;
+        bottom: 12.2%;
+    
+        /* Second Headline */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 52px;
+        line-height: 62px;
+        /* identical to box height, or 119% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .gsubheading{
+        
+        /* Sub Heading */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 591px;
+        height: 80px;
+        left: 0px;
+        top: 82px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .gwefocus{
+        
+        height: 60px;
+        width: 571px;
+        border-radius: nullpx;
+    
+        /* We focus on ergonomics and meeting you where you work. It's only a keystroke away. */
+    
+    
+        position: static;
+        left: 1.69%;
+        right: 1.69%;
+        top: 12.5%;
+        bottom: 12.5%;
+    
+        /* Sub Heading */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .gtopcards{
+        
+        /* Cards */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 999px;
+        height: 285px;
+        left: 44px;
+        top: 206px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 44px 0px;
+    }
+    .gcard1{
+        
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 225px;
+        height: 285px;
+        left: 0px;
+        top: 0px;
+    
+        background: url(images/Rectangle1.svg);
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 33px 0px 0px;
+    }
+    .gcard2{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 225px;
+        height: 285px;
+        left: 258px;
+        top: 0px;
+    
+        background: url(images/Rectangle2.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 33px 0px 0px;
+    }
+    .gcard3{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 225px;
+        height: 285px;
+        left: 516px;
+        top: 0px;
+    
+        background: url(images/Rectangle3.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 0px 33px 0px 0px;
+    }
+    .gcard4{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 225px;
+        height: 285px;
+        left: 774px;
+        top: 0px;
+    
+        background: url(images/Rectangle4.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+    }
+    .gbottomcards{
+        
+        /* Cards */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 1087px;
+        height: 285px;
+        left: 0px;
+        top: 535px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .gcard5{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 395px;
+        height: 285px;
+        left: 0px;
+        top: 0px;
+    
+        background: url(images/Rectangle5.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .gcard6{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 225px;
+        height: 285px;
+        left: 428px;
+        top: 0px;
+    
+        background: url(images/Rectangle6.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 33px;
+    }
+    .gcard7{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 401px;
+        height: 285px;
+        left: 686px;
+        top: 0px;
+    
+        background: url(images/Rectangle7.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .gbutton{
+    
+        background: url(images/SeeMore.png);
+        /* button */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 30px;
+    
+        position: static;
+        width: 136px;
+        height: 52px;
+        left: 475.5px;
+        top: 864px;
+    
+        /* light text */
+    
+    
+        box-sizing: border-box;
+        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        margin: 44px 0px;
+    }
+    .gbuttontext{
+        /* text */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 76px;
+        height: 45px;
+        left: 30px;
+        top: 3.5px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .gseemore{
+    
+        height: 25px;
+        width: 56px;
+        border-radius: nullpx;
+    
+        /* See more */
+    
+    
+        position: static;
+        left: 13.16%;
+        right: 13.16%;
+        top: 22.22%;
+        bottom: 22.22%;
+    
+        /* Button */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        /* identical to box height, or 147% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+}
+@media only screen and (max-device-width: 549px){
+    .gcontent{
+        /* content */
+
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 400px;
+        height: 1571px;
+        left: calc(50% - 400px/2);
+        top: 50px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .gtextcontent{
+ 
+        /* Text Content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: relative;
+        width: 383px;
+        height: 192px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .gsecondheadline{
+        
+        /* Second Headline */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: absolute;
+        width: 193px;
+        height: 82px;
+        left: 95px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .textgallery{
+        
+        height: 62px;
+        width: 173px;
+        border-radius: nullpx;
+    
+        /* Gallery */
+    
+    
+        position: static;
+        left: 5.18%;
+        right: 5.18%;
+        top: 12.2%;
+        bottom: 12.2%;
+    
+        /* Second Headline */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 52px;
+        line-height: 62px;
+        /* identical to box height, or 119% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .gsubheading{
+        
+        /* Sub Heading */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 383px;
+        height: 110px;
+        left: 0px;
+        top: 82px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .gwefocus{
+       
+        height: 90px;
+        width: 363px;
+        left: 10px;
+        top: 0px;
+        border-radius: nullpx;
+
+    
+        /* We focus on ergonomics and meeting you where you work. It's only a keystroke away. */
+    
+    
+        position: relative;
+    
+        /* Sub Heading */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .gtopcards{
+       
+        /* Cards */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 400px;
+        height: 1239px;
+        left: 0px;
+        top: 236px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .gcard1{
+        
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 329px;
+        height: 285px;
+        left: 35.5px;
+        top: 0px;
+    
+        background: url(images/Rectangle1_mob.svg);
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 33px 0px 0px;
+    }
+    .gcard2{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 323px;
+        height: 285px;
+        left: 38.5px;
+        top: 318px;
+    
+        background: url(images/Rectangle2_mob.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .gcard3{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 317px;
+        height: 285px;
+        left: 41.5px;
+        top: 636px;
+    
+        background: url(images/Rectangle3_mob.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .gcard4{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 305px;
+        height: 285px;
+        left: 47.5px;
+        top: 954px;
+    
+        background: url(images/Rectangle4_mob.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    
+    .gbutton{
+    
+        background: url(images/SeeMore.png);
+        /* button */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 136px;
+        height: 52px;
+        left: 132px;
+        top: 1519px;
+    
+        /* light text */
+    
+    
+        box-sizing: border-box;
+        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .gbuttontext{
+        /* text */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 76px;
+        height: 45px;
+        left: 30px;
+        top: 3.5px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .gseemore{
+    
+        height: 25px;
+        width: 56px;
+        border-radius: nullpx;
+    
+        /* See more */
+    
+    
+        position: static;
+        left: 13.16%;
+        right: 13.16%;
+        top: 22.22%;
+        bottom: 22.22%;
+    
+        /* Button */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        /* identical to box height, or 147% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+}

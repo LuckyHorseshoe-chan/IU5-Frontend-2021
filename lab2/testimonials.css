@@ -1,0 +1,2551 @@
+@media only screen and (min-device-width: 1000px){
+    .tsecondheadline{
+
+        /* Second Headline */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 324px;
+        height: 82px;
+        left: 627.5px;
+        top: 50px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 50px 0px;
+    }
+    .texttestimonials{
+     
+        height: 62px;
+        width: 304px;
+        border-radius: nullpx;
+    
+        text-align: center;
+    
+        /* Testimonials */
+    
+    
+        position: static;
+        left: 3.09%;
+        right: 3.09%;
+        top: 12.2%;
+        bottom: 12.2%;
+    
+        /* Second Headline */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 52px;
+        line-height: 62px;
+        /* identical to box height, or 119% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .tcontent{
+
+        /* content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: static;
+        width: 883px;
+        height: 652px;
+        left: 348px;
+        top: 182px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .ritems{
+    
+        /* testimonial-items */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 430px;
+        height: 628px;
+        left: 453px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .bottomritem{
+  
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px;
+    
+        position: static;
+        width: 430px;
+        height: 304px;
+        left: 0px;
+        top: 324px;
+    
+        /* dark background */
+    
+        background: #181818;
+        border: 1px solid #DEDEDE;
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 20px 0px;
+    }
+    .brclient{
+
+        /* client */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 191px;
+        height: 50px;
+        left: 40px;
+        top: 40px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .brclientname{
+
+        /* text content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: static;
+        width: 128px;
+        height: 48px;
+        left: 63px;
+        top: 1px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 13px;
+    }
+    .brsubtitle{
+    
+        /* Subtitle */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 90px;
+        height: 24px;
+        left: 0px;
+        top: 24px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .brdesigner{
+        /* Designer */
+    
+    
+        position: static;
+        left: 11.11%;
+        right: 11.11%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Subtitle */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.1px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .brlink{
+      
+        /* Link */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 128px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .jorge{
+        /* Jorge Murphy */
+    
+    
+        position: static;
+        left: 7.81%;
+        right: 7.81%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Link */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .regina{
+        display: none;
+    }
+    .bravatar{
+
+        background: url(images/Ellipse2.svg);
+        /* avatar */
+    
+    
+        position: static;
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .brparagraphe{
+    
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 320px;
+        height: 144px;
+        left: 40px;
+        top: 120px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 30px 0px;
+    }
+    .brpartext{
+        height: 144px;
+        width: 320px;
+        border-radius: nullpx;
+    
+        /* Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. */
+    
+    
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .topritem{
+        
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px;
+    
+        position: static;
+        width: 430px;
+        height: 304px;
+        left: 0px;
+        top: 0px;
+    
+        /* dark background */
+    
+        background: #181818;
+        border: 1px solid #DEDEDE;
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .trclient{
+      
+        /* client */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 200px;
+        height: 50px;
+        left: 40px;
+        top: 40px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .trclientname{
+        
+        /* text content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: static;
+        width: 137px;
+        height: 48px;
+        left: 63px;
+        top: 1px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 13px;
+    }
+    .trsubtitle{
+       
+        /* Subtitle */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 90px;
+        height: 24px;
+        left: 0px;
+        top: 24px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .trdesigner{
+        /* Designer */
+    
+    
+        position: static;
+        left: 11.11%;
+        right: 11.11%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Subtitle */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.1px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .trlink{
+      
+        /* Link */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 137px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .francisco{
+        /* Francisco Lane */
+    
+    
+        position: static;
+        left: 7.3%;
+        right: 7.3%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Link */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .arthur{
+        display: none;
+    }
+    .travatar{
+      
+        background: url(images/Ellipse3.svg);
+        /* avatar */
+    
+        position: static;
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .trparagraphe{
+       
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 320px;
+        height: 144px;
+        left: 40px;
+        top: 120px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 30px 0px;
+    }
+    .trpartext{
+        height: 144px;
+        width: 320px;
+        border-radius: nullpx;
+    
+        /* Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. */
+    
+    
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .litems{
+       
+        /* testimonial-items */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 430px;
+        height: 652px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 23px 0px 0px;
+    }
+    .bottomlitem{
+        
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px;
+    
+        position: static;
+        width: 430px;
+        height: 304px;
+        left: 0px;
+        top: 348px;
+    
+        /* dark background */
+    
+        background: #181818;
+        border: 1px solid #DEDEDE;
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 20px 0px;
+    }
+    .blclient{
+       
+        /* client */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 179px;
+        height: 50px;
+        left: 40px;
+        top: 40px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .blclientname{
+      
+        /* text content */
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: static;
+        width: 116px;
+        height: 48px;
+        left: 63px;
+        top: 1px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 13px;
+    }
+    .blsubtitle{
+        
+        /* Subtitle */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 90px;
+        height: 24px;
+        left: 0px;
+        top: 24px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .bldesigner{
+       /* Designer */
+    
+    
+        position: static;
+        left: 11.11%;
+        right: 11.11%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Subtitle */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.1px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .bllink{
+   
+        /* Link */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 116px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .ralph{
+        /* Ralph Fisher */
+    
+    
+        position: static;
+        left: 8.62%;
+        right: 8.62%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Link */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .philip{
+        display: none;
+    }
+    .blavatar{
+     
+        background: url(images/Ellipse4.svg);
+        /* avatar */
+    
+    
+        position: static;
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .blparagraphe{
+    
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 320px;
+        height: 144px;
+        left: 40px;
+        top: 120px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 30px 0px;
+    }
+    .blpartext{
+        height: 144px;
+        width: 320px;
+        border-radius: nullpx;
+    
+        /* Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. */
+    
+    
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .toplitem{
+  
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px;
+    
+        position: static;
+        width: 430px;
+        height: 328px;
+        left: 0px;
+        top: 0px;
+    
+        /* dark background */
+    
+        background: #181818;
+        border: 1px solid #DEDEDE;
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .tlclient{
+ 
+        /* client */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 162px;
+        height: 50px;
+        left: 40px;
+        top: 40px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .tlclientname{
+   
+        /* text content */
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: static;
+        width: 99px;
+        height: 48px;
+        left: 63px;
+        top: 1px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 13px;
+    }
+    .tlsubtitle{
+   
+        /* Subtitle */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 90px;
+        height: 24px;
+        left: 0px;
+        top: 24px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .tldesigner{
+       /* Designer */
+    
+    
+        position: static;
+        left: 11.11%;
+        right: 11.11%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Subtitle */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.1px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .tllink{
+ 
+        /* Link */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 99px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .claire{
+        /* Claire Bell */
+    
+    
+        position: static;
+        left: 10.1%;
+        right: 10.1%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Link */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .wade{
+        display: none;
+    }
+    .tlavatar{
+    
+        background: url(images/Ellipse5.svg);
+        /* avatar */
+    
+    
+        position: static;
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .tlparagraphe{
+
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 320px;
+        height: 168px;
+        left: 40px;
+        top: 120px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 30px 0px;
+    }
+    .tlpartext{
+        height: 168px;
+        width: 320px;
+        border-radius: nullpx;
+    
+        /* Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. */
+    
+    
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+}
+@media only screen and (max-device-width: 549px){
+    .tsecondheadline{
+
+        /* Second Headline */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: absolute;
+        width: 324px;
+        height: 82px;
+        left: 112.5px;
+        top: 50px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .texttestimonials{
+
+        height: 62px;
+        width: 304px;
+        border-radius: nullpx;
+    
+        text-align: center;
+    
+        /* Testimonials */
+    
+    
+        position: static;
+        left: 3.09%;
+        right: 3.09%;
+        top: 12.2%;
+        bottom: 12.2%;
+    
+        /* Second Headline */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 52px;
+        line-height: 62px;
+        /* identical to box height, or 119% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .tcontent{
+       
+        /* content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: absolute;
+        width: 352px;
+        height: 1573px;
+        left: 98.5px;
+        top: 182px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .ritems{
+    
+        /* testimonial-items */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: relative;
+        width: 352px;
+        height: 775px;
+        left: 0px;
+        top: 23px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .bottomritem{
+
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: absolute;
+        width: 352px;
+        height: 376px;
+        left: 0px;
+        top: 399px;
+    
+        /* dark background */
+    
+        background: #181818;
+        border: 1px solid #DEDEDE;
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .brclient{
+ 
+        /* client */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 183px;
+        height: 50px;
+        left: 40px;
+        top: 40px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .brclientname{
+
+        /* text content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: absolute;
+        width: 120px;
+        height: 48px;
+        left: 63px;
+        top: 1px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .brsubtitle{
+  
+        /* Subtitle */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 90px;
+        height: 24px;
+        left: 0px;
+        top: 24px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .brdesigner{
+        /* Designer */
+    
+    
+        position: absolute;
+        height: 24px;
+        width: 70px;
+        left: 10px;
+        top: 0px;
+        border-radius: nullpx;
+
+    
+        /* Subtitle */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.1px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .brlink{
+  
+        /* Link */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 120px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .jorge{
+        display: none
+    }
+    .regina{
+       /* Regina Black */
+    
+    
+        position: absolute;
+        height: 24px;
+        width: 100px;
+        left: 10px;
+        top: 0px;
+        border-radius: nullpx;
+
+        /* Link */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .bravatar{
+   
+        background: url(images/Ellipse8.svg);
+        /* avatar */
+    
+    
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .brparagraphe{
+  
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 244px;
+        height: 216px;
+        left: 40px;
+        top: 120px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .brpartext{
+        height: 216px;
+        width: 244px;
+        left: 0px;
+        top: 0px;
+        border-radius: nullpx;
+
+    
+        /* Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. */
+    
+    
+        position: absolute;
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .topritem{
+        
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: absolute;
+        width: 352px;
+        height: 376px;
+        left: 0px;
+        top: 0px;
+
+    
+        /* dark background */
+    
+        background: #181818;
+        border: 1px solid #DEDEDE;
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .trclient{
+ 
+        /* client */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 190px;
+        height: 50px;
+        left: 40px;
+        top: 40px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .trclientname{
+        
+        /* text content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: absolute;
+        width: 127px;
+        height: 48px;
+        left: 63px;
+        top: 1px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .trsubtitle{
+       
+        /* Subtitle */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 90px;
+        height: 24px;
+        left: 0px;
+        top: 24px;
+
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .trdesigner{
+        /* Designer */
+    
+    
+        position: absolute;
+        height: 24px;
+        width: 70px;
+        left: 10px;
+        top: 0px;
+        border-radius: nullpx;
+
+    
+        /* Subtitle */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.1px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .trlink{
+        
+        /* Link */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: absolute;
+        width: 127px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .francisco{
+        display: none;
+    }
+    .arthur{
+        /* Arthur Wilson */
+    
+    
+        position: absolute;
+        height: 24px;
+        width: 107px;
+        left: 10px;
+        top: 0px;
+        border-radius: nullpx;
+
+    
+        /* Link */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .travatar{
+
+        background: url(images/Ellipse3.svg);
+        /* avatar */
+    
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .trparagraphe{
+ 
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 244px;
+        height: 216px;
+        left: 40px;
+        top: 120px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .trpartext{
+        height: 216px;
+        width: 244px;
+        left: 0px;
+        top: 0px;
+        border-radius: nullpx;
+
+    
+        /* Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. */
+    
+    
+        position: absolute;
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .litems{
+  
+        /* testimonial-items */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: relative;
+        width: 352px;
+        height: 775px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 23px 0px 0px;
+    }
+    .bottomlitem{
+    
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: absolute;
+        width: 352px;
+        height: 376px;
+        left: 0px;
+        top: 399px;
+
+    
+        /* dark background */
+    
+        background: #181818;
+        border: 1px solid #DEDEDE;
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .blclient{
+  
+        /* client */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 189px;
+        height: 50px;
+        left: 40px;
+        top: 40px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .blclientname{
+    
+        /* text content */
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: absolute;
+        width: 126px;
+        height: 48px;
+        left: 63px;
+        top: 1px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .blsubtitle{
+
+        /* Subtitle */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: absolute;
+        width: 90px;
+        height: 24px;
+        left: 0px;
+        top: 24px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .bldesigner{
+       /* Designer */
+    
+    
+        position: absolute;
+        height: 24px;
+        width: 70px;
+        left: 10px;
+        top: 0px;
+        border-radius: nullpx;
+
+    
+        /* Subtitle */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.1px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .bllink{
+    
+        /* Link */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: absolute;
+        width: 126px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .ralph{
+        display: none;
+    }
+    .philip{
+        /* Philip Watson */
+    
+    
+        position: absolute;
+        height: 24px;
+        width: 106px;
+        left: 10px;
+        top: 0px;
+        border-radius: nullpx;
+
+    
+        /* Link */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .blavatar{
+      
+        background: url(images/Ellipse7.svg);
+        /* avatar */
+    
+    
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .blparagraphe{
+ 
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 244px;
+        height: 216px;
+        left: 40px;
+        top: 120px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .blpartext{
+        height: 216px;
+        width: 244px;
+        left: 0px;
+        top: 0px;
+        border-radius: nullpx;
+
+        border-radius: nullpx;
+    
+        /* Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. */
+    
+    
+        position: absolute;
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .toplitem{
+  
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: absolute;
+        width: 352px;
+        height: 376px;
+        left: 0px;
+        top: 0px;
+    
+        /* dark background */
+    
+        background: #181818;
+        border: 1px solid #DEDEDE;
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .tlclient{
+
+        /* client */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 196px;
+        height: 50px;
+        left: 40px;
+        top: 40px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .tlclientname{
+
+        /* text content */
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: absolute;
+        width: 133px;
+        height: 48px;
+        left: 63px;
+        top: 1px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .tlsubtitle{
+    
+        /* Subtitle */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: absolute;
+        width: 90px;
+        height: 24px;
+        left: 0px;
+        top: 24px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .tldesigner{
+       /* Designer */
+    
+    
+        position: absolute;
+        height: 24px;
+        width: 70px;
+        left: 10px;
+        top: 0px;
+        border-radius: nullpx;
+
+    
+        /* Subtitle */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.1px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .tllink{
+       
+        /* Link */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: absolute;
+        width: 133px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .claire{
+        display: none;
+    }
+    .wade{
+        /* Wade Steward */
+    
+    
+        position: absolute;
+        height: 24px;
+        width: 113px;
+        left: 10px;
+        top: 0px;
+        border-radius: nullpx;
+
+    
+        /* Link */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .tlavatar{
+    
+        background: url(images/Ellipse6.svg);
+        /* avatar */
+    
+    
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .tlparagraphe{
+     
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 244px;
+        height: 216px;
+        left: 40px;
+        top: 120px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .tlpartext{
+        height: 216px;
+        width: 244px;
+        left: 0px;
+        top: 0px;
+        border-radius: nullpx;
+
+    
+        /* Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. */
+    
+    
+        position: absolute;
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+}
