@@ -1,10 +1,11 @@
-@media only screen and (min-device-width: 1000px){
+@media only screen and (min-device-width: 550px){
     .header-text{
         width: 1579px;
         height: 393px;
         position: absolute;
         top: 154px;
-        left: 0px;
+        
+
         /* Text */
 
 
@@ -35,10 +36,9 @@
         align-items: center;
         padding: 0px;
 
-        position: relative;
+        position: absolute;
         width: 729px;
         height: 196px;
-        left: 0px;
         top: 50px;
 
 
@@ -56,7 +56,7 @@
         /* Work at the speed of thought */
 
 
-        position: static;
+        position: absolute;
         left: 1.37%;
         right: 1.37%;
         top: 5.1%;
@@ -83,7 +83,7 @@
         flex: none;
         order: 0;
         flex-grow: 0;
-        margin: 0px 10px;
+        margin: 0px;
     }
     .header-subheading{
         
@@ -97,10 +97,9 @@
         align-items: center;
         padding: 0px;
 
-        position: relative;
+        position: absolute;
         width: 602px;
         height: 80px;
-        left: 0px;
         top: 263px;
 
 
@@ -118,7 +117,7 @@
         /* Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule. */
 
 
-        position: static;
+        position: absolute;
         left: 1.66%;
         right: 1.66%;
         top: 12.5%;
@@ -145,7 +144,7 @@
         flex: none;
         order: 0;
         flex-grow: 0;
-        margin: 37px 10px;
+        margin: 0px;
     }
     .header-buttons{
         
@@ -155,7 +154,6 @@
         padding: 0px;
         width: 307px;
         height: 65px;
-        left: 636px;
         top: 582px;
         position: absolute;
     }
@@ -165,7 +163,7 @@
         height: 65px;
         position: relative;
         top: 0px;
-        left: 171px;
+        margin: 0px 0px 0px 171px;
     }
     .textlearn{
         /* Learn More */
@@ -205,7 +203,6 @@
         height: 65px;
         position: relative;
         top: 0px;
-        left: 0px;
     }
     .texttry{
         /* Try For */

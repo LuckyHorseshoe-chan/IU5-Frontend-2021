@@ -1,11 +1,11 @@
-@media only screen and (min-device-width: 1000px){
+@media only screen and (min-device-width: 550px){
     .navbar{
  
         /* navbar */
-        position: static;
+        position: absolute;
         width: 1097px;
         height: 119px;
-        left: 593.5;
+        left: 0px;
         top: 0px;
 
 

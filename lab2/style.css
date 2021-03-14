@@ -1,9 +1,7 @@
-@media screen{
+@media only screen and (min-device-width: 550px){
     div{
     }
     .main{
- 
-
 
         /* Desktop - 1 */
 
@@ -12,11 +10,11 @@
 
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         padding: 0px;
 
-        position: relative;
-        width: 1579px;
+        position: absolute;
+        width: 100%;
         height: 7769.07px;
 
         /* dark background */
@@ -35,7 +33,7 @@
         padding: 0px;
 
         position: absolute;
-        width: 1579px;
+        width: 100%;
         height: 1675px;
         left: 0px;
         top: 0px;
@@ -48,7 +46,7 @@
 
         flex: none;
         order: 0;
-        align-self: stretch;
+        /*align-self: stretch; */
         flex-grow: 0;
     }
    .features{
@@ -60,11 +58,11 @@
 
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
 
 
         position: absolute;
-        width: 1579px;
+        width: 100%;
         height: 1112px;
         left: 0px;
         top: 1775px;
@@ -77,7 +75,7 @@
 
         flex: none;
         order: 1;
-        align-self: stretch;
+        /* align-self: stretch; */
         flex-grow: 0;
    }
    .contents{
@@ -91,7 +89,7 @@
         align-items: center;
 
         position: absolute;
-        width: 1579px;
+        width: 100%;
         height: 930.52px;
         left: 0px;
         top: 2987px;
@@ -118,7 +116,7 @@
         align-items: center;
         
         position: absolute;
-        width: 1579px;
+        width: 100%;
         height: 1016px;
         left: 0px;
         top: 4017.52px;
@@ -145,7 +143,7 @@
         align-items: center;
 
         position: absolute;
-        width: 1579px;
+        width: 100%;
         height: 484.55px;
         left: 0px;
         top: 5133.52px;
@@ -173,7 +171,7 @@
         align-items: center;
 
         position: absolute;
-        width: 1579px;
+        width: 100%;
         height: 884px;
         left: 0px;
         top: 5718.07px;
@@ -201,7 +199,7 @@
         align-items: center;
 
         position: absolute;
-        width: 1579px;
+        width: 100%;
         height: 530px;
         left: 0px;
         top: 6702.07px;
@@ -229,7 +227,7 @@
         align-items: center;
 
         position: absolute;
-        width: 1579px;
+        width: 100%;
         height: 437px;
         left: 0px;
         top: 7332.07px;
