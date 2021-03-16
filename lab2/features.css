@@ -1,6 +1,7 @@
-@media only screen and (min-device-width: 550px){
+@media only screen and (min-device-width: 1444px){
     .fcontent{
         /* content */
+  
 
         /* Auto Layout */
     
@@ -9,8 +10,8 @@
         align-items: center;
         padding: 0px;
     
-        position: static;
-        width: 1479px;
+        position: absolute;
+        width: 93,6669%;
         height: 988px;
         left: calc(50% - 1479px/2);
         top: 62px;
@@ -22,7 +23,7 @@
         order: 0;
         align-self: stretch;
         flex-grow: 0;
-        margin: 62px 50px;
+        margin: 0px;
     }
     .fheading{
         /* heading */
@@ -956,8 +957,977 @@
     
     }    
 }
-@media only screen and (max-device-width: 549px){
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1443px){
     .fcontent{
+
+        /* content */
+  
+
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 93.6669%;
+        height: 988px;
+        left: 3.17%;
+        top: 62px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .fheading{
+
+        /* heading */
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 50%;
+        height: 149px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .fsubheadingtext{
+             /* Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule. */
+    
+    
+        position: absolute;
+        left: 1.66%;
+        right: 1.66%;
+        top: 0%;
+        bottom: 0%;
+    
+        width: 100%;
+        height: 60px;
+        /* Sub Heading */
+        text-align: center;
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .fsecondheadline{
+       /* Second Headline */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 251px;
+        height: 62px;
+
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .fsubheading{
+
+
+       /* Sub Heading */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        left: 0px;
+        top: 89px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .fsecondheadlinetext{
+        /* FEATURES */
+    
+    
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    
+        width: 251px;
+        height: 62px;
+        /* Second Headline */
+        text-align: center;
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 52px;
+        line-height: 62px;
+        /* identical to box height, or 119% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .fframe{
+
+       /* Frame 20 */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 100%;
+        height: 759px;
+        left: 0px;
+        top: 229px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .fcontentrows{
+
+       /* content rows */
+
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+        position: absolute;
+        width: 28.4%;
+        height: 651px;
+        top: 54px;
+        left: 71.6%;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .textblock1{
+
+       /* Text Block */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: static;
+        width: 269px;
+        height: 196px;
+        left: 20px;
+        top: 20px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 20px 20px;
+    }
+    .headline1{
+ 
+       /* HEADLINE */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: static;
+        width: 204.49px;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .title1{
+
+       /* Title */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    
+        position: static;
+        width: 173px;
+        height: 80px;
+        left: 31.49px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .asingle{
+        height: 60px;
+        width: 153px;
+        border-radius: nullpx;
+    
+       /* A single source of truth */
+    
+    
+        position: static;
+        left: 10px;
+        top: 10px;
+    
+        /* Title */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+    
+        letter-spacing: 0.1px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        align-self: flex-start;
+        flex-grow: 0;
+        margin: 10px 10px;
+        }
+    .icon1{
+
+       /* ic:round-restaurant-menu */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+        position: static;
+        width: 31.49px;
+        height: 61.66px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .vector{
+
+        height: 23.66px;
+        width: 25.49px;
+        border-radius: 0px;
+    
+       /* Vector */
+    
+    
+        position: static;
+        left: 9.53%;
+        right: 9.53%;
+        top: 30.81%;
+        bottom: 30.81%;
+    
+        /* secondary */
+    
+        background: url(images/Vector.svg);
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 19px 3px;
+    }
+    .paragraphe1{
+
+       /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 269px;
+        height: 116px;
+        left: 0px;
+        top: 80px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .when{
+  
+        height: 96px;
+        width: 249px;
+        border-radius: nullpx;
+    
+       /* When you add work to your Slate calendar we automatically calculate useful insights */
+    
+    
+        position: static;
+        left: 3.72%;
+        right: 3.72%;
+        top: 8.62%;
+        bottom: 8.62%;
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .textblock2{
+
+       /* Text Block */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: static;
+        width: 269px;
+        height: 196px;
+        left: 20px;
+        top: 241px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 5px 20px;
+    }
+    .headline2{
+ 
+        /* HEADLINE */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: static;
+        width: 140px;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .title2{
+
+        /* Title */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 107px;
+        height: 80px;
+        left: 33px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .intuitive{
+
+        height: 60px;
+        width: 87px;
+        border-radius: nullpx;
+    
+    
+        /* Intuitive interface */
+    
+    
+        position: static;
+        left: 9.35%;
+        right: 9.35%;
+        top: 12.5%;
+        bottom: 12.5%;
+    
+        /* Title */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+    
+        letter-spacing: 0.1px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        align-self: flex-start;
+        flex-grow: 0;
+        margin: 10px 10px;
+     }
+    .icon2{
+
+        /* mdi:alien-outline */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 33px;
+        height: 60px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .vector1{
+
+        height: 30px;
+        width: 29px;
+        border-radius: 0px;
+    
+    
+        /* Vector */
+    
+    
+        position: static;
+        left: 6.06%;
+        right: 6.06%;
+        top: 25%;
+        bottom: 25%;
+    
+        /* secondary */
+    
+        background: url(images/Vector1.svg);
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 15px 2px;
+    }
+    .paragraphe2{
+
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 269px;
+        height: 116px;
+        left: 0px;
+        top: 80px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .when1{
+
+        height: 96px;
+        width: 249px;
+        border-radius: nullpx;
+    
+    
+        /* When you add work to your Slate calendar we automatically calculate useful insights */
+    
+    
+        position: static;
+        left: 3.72%;
+        right: 3.72%;
+        top: 8.62%;
+        bottom: 8.62%;
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 10px;
+    }
+    .textblock3{
+  
+       /* Text Block */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: static;
+        width: 269px;
+        height: 169px;
+        left: 20px;
+        top: 462px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 25px 20px;
+    }
+    .headline3{
+
+        /* HEADLINE */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: static;
+        width: 185px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .title3{
+
+        /* Title */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 144px;
+        height: 50px;
+        left: 41px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .or{
+   
+        height: 30px;
+        width: 124px;
+        border-radius: nullpx;
+    
+    
+    
+        /* Or with rules */
+    
+    
+        position: static;
+        left: 6.94%;
+        right: 6.94%;
+        top: 20%;
+        bottom: 20%;
+    
+        /* Title */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.1px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        align-self: flex-start;
+        flex-grow: 0;
+        margin: 10px 10px;
+     }
+    .icon3{
+
+        /* mdi:all-inclusive */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        position: static;
+        width: 41px;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .vector2{
+ 
+    
+        height: 19px;
+        width: 41px;
+        border-radius: 0px;
+    
+    
+    
+        /* Vector */
+    
+    
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 32.08%;
+        bottom: 32.08%;
+    
+        /* secondary */
+    
+        background: url(images/Vector2.svg);
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 17px 0px;
+    }
+    .paragraphe3{
+
+        /* Paragraphe */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 269px;
+        height: 116px;
+        left: 0px;
+        top: 53px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .when2{
+ 
+        height: 96px;
+        width: 249px;
+        border-radius: nullpx;
+    
+    
+    
+        /* When you add work to your Slate calendar we automatically calculate useful insights */
+    
+    
+        position: static;
+        left: 3.72%;
+        right: 3.72%;
+        top: 8.62%;
+        bottom: 8.62%;
+    
+        /* Paragraphe */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 10px;
+    }
+    .fimages{
+
+       /* Frame 19 */
+    
+    
+        position: absolute;
+        width: 69.12%;
+        height: 759px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .linechart{
+
+
+       /* Line Chart 1 */
+    
+    
+        position: absolute;
+        width: 53.19%;
+        height: 276px;
+        left: 46.81%;
+        top: 483.5px;
+    
+        background: url(images/LineChart1.png);
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        /* shadow */
+    
+        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    
+    }
+    .chatbot{
+       /* Chat Bot */
+    
+    
+        position: absolute;
+        width: 92.55%;
+        height: 659px;
+        left: 3.72%;
+        top: 0.5px;
+    
+        background: url(images/ChatBot.png);
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        /* shadow */
+    
+        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    
+    }  
+}
+@media only screen and (max-device-width: 999px){
+    .fcontent{
+
         /* content */
        
         /* Auto Layout */
@@ -970,7 +1940,7 @@
         position: absolute;
         width: 449px;
         height: 1290px;
-        left: 50px;
+        left: calc(50% - 449px/2);
         top: 62px;
     
     
@@ -1124,7 +2094,7 @@
         margin: 0px 10px 0px 0px;
     }
     .fframe{
- 
+        
        /* Frame 20 */
     
     
@@ -1149,6 +2119,8 @@
         flex-grow: 0;
     }
     .fcontentrows{
+
+        
        /* content rows */
 
     
@@ -1156,7 +2128,7 @@
     
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     
         position: absolute;
         width: 309px;
@@ -1170,6 +2142,7 @@
         flex: none;
         order: 1;
         flex-grow: 0;
+        margin: 0px;
     }
     .textblock1{
 
@@ -1863,7 +2836,8 @@
         margin: 10px 10px;
     }
     .fimages{
- 
+
+        
        /* Frame 19 */
     
     
@@ -1913,5 +2887,119 @@
     
         filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
     
+    }
+}
+@media only screen and (max-device-width: 548px){
+    .fcontent{
+        
+        /* content */
+       
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 100%;
+        height: 1290px;
+        left: 0px;
+        top: 62px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .fsubheading{
+
+        
+        /* Sub Heading */
+     
+     
+         /* Auto Layout */
+     
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+     
+         position: relative;
+         width: 100%;
+         height: 90px;
+         left: 0px;
+         top: 27px;
+     
+     
+         /* Inside Auto Layout */
+     
+         flex: none;
+         order: 1;
+         flex-grow: 0;
+     }
+     .fheading{
+        /* heading */
+
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: relative;
+        width: 100%;
+        height: 179px;
+        left: 0px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .fsubheadingtext{
+
+             /* Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule. */
+    
+        position: absolute;
+        height: 90px;
+        width: 95%;
+        left: 2.32%;
+        right: 2.32%;
+        top: 0%;
+        bottom: 0%;
+        border-radius: nullpx;
+             
+        /* Sub Heading */
+        text-align: center;
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
     }
 }

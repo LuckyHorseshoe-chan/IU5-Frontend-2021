@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 550px){
+@media only screen and (min-device-width: 1000px){
     .ccontent{
         /* content */
 
@@ -13,7 +13,7 @@
          position: absolute;
          width: 985px;
          height: 830.52px;
-         left: 297px;
+         left: calc(50% - 985px/2);;
          top: 50px;
     
     
@@ -775,8 +775,9 @@
         background: #9FA2A5;
     }
 }
-@media only screen and (max-device-width: 549px){
+@media only screen and (max-device-width: 999px){
     .ccontent{
+       
         /* content */
 
     
@@ -801,6 +802,7 @@
          flex-grow: 0;
     }
     .textcontent{
+
         /* Text Content */
    
     
@@ -861,7 +863,7 @@
          bottom: 12.2%;
             
          /* Second Headline */
-    
+         text-align: center;
          font-family: Graphik;
          font-style: normal;
          font-weight: normal;
@@ -880,6 +882,7 @@
          flex: none;
          order: 0;
          flex-grow: 0;
+         margin: 0px;
     }
     .csubheading{
         /* Sub Heading */
@@ -938,6 +941,7 @@
          flex: none;
          order: 0;
          flex-grow: 0;
+         margin: 0px;
     }
     .ccards{
         /* Cards */

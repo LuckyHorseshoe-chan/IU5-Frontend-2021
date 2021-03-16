@@ -1,12 +1,13 @@
-@media only screen and (min-device-width: 550px){
+@media only screen and (min-device-width: 1444px){
     .navbar{
  
         /* navbar */
         position: absolute;
         width: 1097px;
         height: 119px;
-        left: 0px;
+        left: calc(50% - 1097px/2);
         top: 0px;
+        padding: 0px;
 
 
         /* Inside Auto Layout */
@@ -14,6 +15,7 @@
         flex: none;
         order: 0;
         flex-grow: 0;
+        margin: 0px;
     }
     .button{
 
@@ -29,10 +31,11 @@
         position: absolute;
         height: 52px;
         width: 148px;
-        left: 1151px;
+        left: 844px;
         top: 33px;
         border-radius: 0px;
         padding: 20px, 36px, 20px, 36px;
+        margin: 0px;
 
         /* light text */
 
@@ -74,7 +77,7 @@
         flex: none;
         order: 0;
         flex-grow: 0;
-        margin: 0px 10px;
+        margin: 0px;
     }
     .menu{
 
@@ -82,7 +85,7 @@
 
 
         /* Auto Layout */
-
+        position: absolute;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -98,7 +101,7 @@
         /* Contact */
 
 
-        position: static;
+        position: absolute;
         left: 12.05%;
         right: 12.05%;
         top: 22.73%;
@@ -125,7 +128,7 @@
         flex: none;
         order: 0;
         flex-grow: 0;
-        margin: 0px 10px;
+        margin: 0px;
     }
     .contact-link{
 
@@ -141,8 +144,8 @@
         position: absolute;
         width: 83px;
         height: 44px;
-        left: 903.5px;
-        top: 47.5px;
+        left: 310px;
+        top: 0px;
 
 
         /* Inside Auto Layout */
@@ -150,13 +153,13 @@
         flex: none;
         order: 3;
         flex-grow: 0;
-        margin: 0px 31px;
+        margin: 0px;
     }
     .about{
         /* About */
 
 
-        position: static;
+        position: absolute;
         left: 14.71%;
         right: 14.71%;
         top: 22.73%;
@@ -183,7 +186,7 @@
         flex: none;
         order: 0;
         flex-grow: 0;
-        margin: 0px 10px;
+        margin: 0px;
     }
     .about-link{
 
@@ -199,8 +202,8 @@
         position: absolute;
         width: 68px;
         height: 44px;
-        left: 804.5px;
-        top: 47.5px;
+        left: 211px;
+        top: 0px;
 
 
         /* Inside Auto Layout */
@@ -208,14 +211,14 @@
         flex: none;
         order: 2;
         flex-grow: 0;
-        margin: 0px 31px;
+        margin: 0px;
     }
     .product{
 
                 /* Product */
 
 
-            position: static;
+            position: absolute;
             left: 12.2%;
             right: 12.2%;
             top: 22.73%;
@@ -242,7 +245,7 @@
             flex: none;
             order: 0;
             flex-grow: 0;
-            margin: 0px 10px;
+            margin: 0px;
     }
     .product-link{
 
@@ -258,8 +261,8 @@
         position: absolute;
         width: 82px;
         height: 44px;
-        left: 701.5px;
-        top: 47.5px;
+        left: 98px;
+        top: 0px;
 
 
         /* Inside Auto Layout */
@@ -267,13 +270,13 @@
         flex: none;
         order: 1;
         flex-grow: 0;
-        margin: 0px 31px;
+        margin: 0px;
     }
     .home{
         /* Home */
 
 
-        position: static;
+        position: absolute;
         left: 14.93%;
         right: 14.93%;
         top: 22.73%;
@@ -300,7 +303,7 @@
         flex: none;
         order: 0;
         flex-grow: 0;
-        margin: 0px 10px;
+        margin: 0px;
     }
     .home-link{
         /* link */
@@ -315,8 +318,8 @@
         position: absolute;
         width: 67px;
         height: 44px;
-        left: 603.5px;
-        top: 47.5px;
+        left: 0px;
+        top: 0px;
 
 
         /* Inside Auto Layout */
@@ -324,7 +327,7 @@
         flex: none;
         order: 0;
         flex-grow: 0;
-        margin: 0px 31px;
+        margin: 0px;
     }
     .logo{
         /* logo dark */
@@ -339,19 +342,370 @@
         position: absolute;
         width: 186px;
         height: 58px;
-        left: 374px;
+        left: 40px;
         top: 30px;
 
     }
 }
-@media only screen and (max-device-width: 549px){
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1443px){
+    .navbar{
+ 
+        /* navbar */
+        position: absolute;
+        width: 69.47%;
+        height: 119px;
+        left: 15.26%;
+        top: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .button{
+
+        /* button */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        position: absolute;
+        height: 52px;
+        width: 148px;
+        left: 82.95%;
+        top: 33px;
+        border-radius: 0px;
+        padding: 0px;
+        margin: 0px;
+
+        /* light text */
+
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        /* shadow */
+
+        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+
+    }
+    .login{
+         /* Login */
+
+
+        position: absolute;
+        left: 13.16%;
+        right: 13.16%;
+        top: 22.22%;
+        bottom: 22.22%;
+
+        /* Button */
+
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        text-align: center;
+        /* identical to box height, or 147% */
+
+        letter-spacing: 0.2px;
+
+        /* light background */
+
+        color: #FFFFFF;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .menu{
+
+        /* menu */
+
+
+        /* Auto Layout */
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+
+        height: 44px;
+        width: 393px;
+        left: 25.21%;
+        top: calc(50% - 44px/2);
+    }
+    .contact{
+
+        /* Contact */
+
+
+        position: absolute;
+        left: 12.05%;
+        right: 12.05%;
+        top: 22.73%;
+        bottom: 22.73%;
+
+        /* Link */
+
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* light text */
+
+        color: #FFFFFF;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .contact-link{
+
+        /* link */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        position: absolute;
+        width: 83px;
+        height: 44px;
+        left: 78.88%;
+        top: 0px;
+
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .about{
+        /* About */
+
+
+        position: absolute;
+        left: 14.71%;
+        right: 14.71%;
+        top: 22.73%;
+        bottom: 22.73%;
+
+        /* Link */
+
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* light text */
+
+        color: #FFFFFF;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .about-link{
+
+        /* link */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        position: absolute;
+        width: 68px;
+        height: 44px;
+        left: 53.69%;
+        top: 0px;
+
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .product{
+
+                /* Product */
+
+
+            position: absolute;
+            left: 12.2%;
+            right: 12.2%;
+            top: 22.73%;
+            bottom: 22.73%;
+
+            /* Link */
+
+            font-family: Graphik;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height, or 150% */
+
+            text-align: center;
+            letter-spacing: 0.2px;
+
+            /* light text */
+
+            color: #FFFFFF;
+
+            /* Inside Auto Layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 0px;
+    }
+    .product-link{
+
+        /* link */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        position: absolute;
+        width: 82px;
+        height: 44px;
+        left: 24.94%;
+        top: 0px;
+
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .home{
+        /* Home */
+
+
+        position: absolute;
+        left: 14.93%;
+        right: 14.93%;
+        top: 22.73%;
+        bottom: 22.73%;
+
+        /* Link */
+
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* light text */
+
+        color: #FFFFFF;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .home-link{
+        /* link */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        position: absolute;
+        width: 67px;
+        height: 44px;
+        left: 0px;
+        top: 0px;
+
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .logo{
+        /* logo dark */
+        background: url(images/desktop/Rectangle4.svg);
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+        position: absolute;
+        width: 186px;
+        height: 58px;
+        left: 3.65%;
+        top: 30px;
+
+    }
+}
+@media only screen and (max-device-width: 999px){
     .navbar{
 
         /* navbar */
         position: absolute;
         width: 549px;
         height: 107px;
-        left: 0px;
+        left: calc(50% - 549px/2);
         top: 0px;
 
 
@@ -432,7 +786,7 @@
         bottom: 22.22%;
         
         /* Button */
-        
+        text-align: center;
         font-family: Graphik;
         font-style: normal;
         font-weight: 500;
@@ -451,7 +805,7 @@
         flex: none;
         order: 0;
         flex-grow: 0;
-        margin: 0px 10px;
+        margin: 0px;
     }
     .menumob{
         background: url(images/bx_bx-menu-alt-right.svg);
@@ -461,7 +815,7 @@
         position: relative;
         width: 66px;
         height: 53px;
-        right: 0px;
+        left: 16px;
         top: 0px;
 
 
@@ -487,6 +841,154 @@
         width: 206px;
         height: 78px;
         left: 24px;
+        top: 15px;
+
+    }
+}
+@media only screen and (max-device-width: 548px){
+    .navbar{
+        
+        /* navbar */
+        position: absolute;
+        width: 100%;
+        height: 107px;
+        left: 0px;
+        top: 0px;
+
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .frame21{
+ 
+        /* Frame 21 */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+
+        position: absolute;
+        width: 41.89%;
+        height: 53px;
+        right: 3%;
+        top: 28px;
+    }
+    .contact{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+    .product{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    .button{
+        /* button */
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        position: relative;
+        width: 64.35%;
+        height: 52px;
+        left: 0px;
+        top: 0.5px;
+
+        /* light background */
+
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        /* shadow */
+
+        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .login{
+        /* Login */
+
+
+        position: absolute;
+        left: 13.16%;
+        right: 13.16%;
+        top: 22.22%;
+        bottom: 22.22%;
+        
+        /* Button */
+        text-align: center;
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        /* identical to box height, or 147% */
+        
+        letter-spacing: 0.2px;
+        
+        /* light text */
+        
+        color: #FFFFFF;
+        
+        /* Inside Auto Layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .menumob{
+        
+        background: url(images/bx_bx-menu-alt-right.svg);
+        /* bx:bx-menu-alt-right */
+
+        position: relative;
+        width: 28.7%;
+        height: 53px;
+        left: 6.96%;
+        top: 0px;
+
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .logo{
+        /* logo dark */
+        background: url(images/logodark.svg);
+        background-position: 50% 100%;
+
+
+        /* Auto Layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+
+        position: absolute;
+        width: 186px;
+        height: 78px;
+        left: 4.37%;
         top: 15px;
 
     }

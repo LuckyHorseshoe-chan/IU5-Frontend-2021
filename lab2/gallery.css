@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 550px){
+@media only screen and (min-device-width: 1444px){
     .gcontent{
         /* content */
         
@@ -527,7 +527,595 @@
         margin: 0px 10px;
     }
 }
-@media only screen and (max-device-width: 549px){
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1443px){
+    .gcontent{
+        /* content */
+        
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 100%;
+        height: 916px;
+        top: 50px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .gtextcontent{
+        
+        /* Text Content */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 591px;
+        height: 162px;
+        left: 248px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .gsecondheadline{
+        
+        /* Second Headline */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 193px;
+        height: 82px;
+        left: 199px;
+        top: 0px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .textgallery{
+        
+        height: 62px;
+        width: 173px;
+        border-radius: nullpx;
+    
+        /* Gallery */
+    
+    
+        position: static;
+        left: 5.18%;
+        right: 5.18%;
+        top: 12.2%;
+        bottom: 12.2%;
+    
+        /* Second Headline */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 52px;
+        line-height: 62px;
+        /* identical to box height, or 119% */
+    
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .gsubheading{
+        
+        /* Sub Heading */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        position: static;
+        width: 591px;
+        height: 80px;
+        left: 0px;
+        top: 82px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    .gwefocus{
+        
+        height: 60px;
+        width: 571px;
+        border-radius: nullpx;
+    
+        /* We focus on ergonomics and meeting you where you work. It's only a keystroke away. */
+    
+    
+        position: static;
+        left: 1.69%;
+        right: 1.69%;
+        top: 12.5%;
+        bottom: 12.5%;
+    
+        /* Sub Heading */
+    
+        font-family: Graphik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.2px;
+    
+        /* light text */
+    
+        color: #FFFFFF;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    .gtopcards{
+        
+        /* Cards */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 999px;
+        height: 285px;
+        left: 44px;
+        top: 206px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 44px 0px;
+    }
+    .gcard1{
+        
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 225px;
+        height: 285px;
+        left: 0px;
+        top: 0px;
+    
+        background: url(images/Rectangle1.svg);
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 33px 0px 0px;
+    }
+    .gcard2{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 225px;
+        height: 285px;
+        left: 258px;
+        top: 0px;
+    
+        background: url(images/Rectangle2.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 33px 0px 0px;
+    }
+    .gcard3{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 225px;
+        height: 285px;
+        left: 516px;
+        top: 0px;
+    
+        background: url(images/Rectangle3.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 0px 33px 0px 0px;
+    }
+    .gcard4{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 225px;
+        height: 285px;
+        left: 774px;
+        top: 0px;
+    
+        background: url(images/Rectangle4.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+    }
+    .gbottomcards{
+        
+        /* Cards */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 1087px;
+        height: 285px;
+        left: 0px;
+        top: 535px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .gcard5{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 395px;
+        height: 285px;
+        left: 0px;
+        top: 0px;
+    
+        background: url(images/Rectangle5.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .gcard6{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 225px;
+        height: 285px;
+        left: 428px;
+        top: 0px;
+    
+        background: url(images/Rectangle6.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 33px;
+    }
+    .gcard7{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: static;
+        width: 401px;
+        height: 285px;
+        left: 686px;
+        top: 0px;
+    
+        background: url(images/Rectangle7.svg), #FFFFFF;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .gbutton{
+    
+        background: url(images/SeeMore.png);
+        /* button */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 30px;
+    
+        position: absolute;
+        width: 136px;
+        height: 52px;
+        left: calc(50% - 136px/2);
+        top: 864px;
+    
+        /* light text */
+    
+    
+        box-sizing: border-box;
+        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        margin: 0px;
+    }
+}
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1087px){
+    .gbottomcards{
+        
+        /* Cards */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 100%;
+        height: 285px;
+        left: 0px;
+        top: 535px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .gcard5{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 36.34%;
+        height: 285px;
+        left: 0px;
+        top: 0px;
+    
+        background: url(images/Rectangle5.svg), #FFFFFF;
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .gcard6{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 20.7%;
+        height: 285px;
+        left: 39.37%;
+        top: 0px;
+    
+        background: url(images/Rectangle6.svg), #FFFFFF;
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .gcard7{
+        /* Card */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 36.89%;
+        height: 285px;
+        left: 63.11%;
+        top: 0px;
+    
+        background: url(images/Rectangle7.svg), #FFFFFF;
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        /* shadow */
+    
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+}
+@media only screen and (max-device-width: 999px){
     .gcontent{
         /* content */
 
@@ -740,10 +1328,10 @@
         align-items: center;
         padding: 0px;
     
-        position: absolute;
+        position: relative;
         width: 329px;
         height: 285px;
-        left: 35.5px;
+        left: 0px;
         top: 0px;
     
         background: url(images/Rectangle1_mob.svg);
@@ -757,7 +1345,7 @@
         flex: none;
         order: 0;
         flex-grow: 0;
-        margin: 0px 33px 0px 0px;
+        margin: 0px;
     }
     .gcard2{
         /* Card */
@@ -770,11 +1358,11 @@
         align-items: center;
         padding: 0px;
     
-        position: absolute;
+        position: relative;
         width: 323px;
         height: 285px;
-        left: 38.5px;
-        top: 318px;
+        left: 0px;
+        top: 33px;
     
         background: url(images/Rectangle2_mob.svg), #FFFFFF;
         /* shadow */
@@ -800,11 +1388,11 @@
         align-items: center;
         padding: 0px;
     
-        position: absolute;
+        position: relative;
         width: 317px;
         height: 285px;
-        left: 41.5px;
-        top: 636px;
+        left: 0px;
+        top: 66px;
     
         background: url(images/Rectangle3_mob.svg), #FFFFFF;
         /* shadow */
@@ -830,11 +1418,11 @@
         align-items: center;
         padding: 0px;
     
-        position: absolute;
+        position: relative;
         width: 305px;
         height: 285px;
-        left: 47.5px;
-        top: 954px;
+        left: 0px;
+        top: 99px;
     
         background: url(images/Rectangle4_mob.svg), #FFFFFF;
         /* shadow */
@@ -866,7 +1454,7 @@
         position: absolute;
         width: 136px;
         height: 52px;
-        left: 132px;
+        left: calc(50% - 136px/2);
         top: 1519px;
     
         /* light text */
@@ -942,5 +1530,57 @@
         order: 0;
         flex-grow: 0;
         margin: 0px 10px;
+    }
+}
+@media only screen and (max-device-width: 548px){
+    .gcontent{
+        /* content */
+
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 100%;
+        height: 1571px;
+        left: 0px;
+        top: 50px;
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px;
+    }
+    .gtopcards{
+       
+        /* Cards */
+    
+    
+        /* Auto Layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    
+        position: absolute;
+        width: 100%;
+        height: 1239px;
+        left: 0px;
+        top: 236px;
+    
+    
+        /* Inside Auto Layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px;
     }
 }
