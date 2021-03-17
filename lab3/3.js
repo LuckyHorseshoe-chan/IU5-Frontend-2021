@@ -8,7 +8,15 @@
  */
 
 function multiplyArray(arr, n) {
-    // code here
+    for(let i = 0; i < arr.length; i++){
+ //       console.log(arr[i]);
+ //       console.log(isNaN(Number(arr[i])));
+        if(!isNaN(Number(arr[i])) && typeof arr[i] != "boolean"){
+            arr[i] = Number(arr[i]) * n;
+        }
+    }
+    return arr;
 }
 
 module.exports = multiplyArray;
+//console.log(multiplyArray([1, 2, 3, 'ddd', {min: 1}, 22, false], 3));

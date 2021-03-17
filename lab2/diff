@@ -1,0 +1,5878 @@
+diff --git a/lab2/contents.css b/lab2/contents.css
+index 25a6150..d4e9f4f 100644
+--- a/lab2/contents.css
++++ b/lab2/contents.css
+@@ -1,4 +1,4 @@
+-@media only screen and (min-device-width: 550px){
++@media only screen and (min-device-width: 1000px){
+     .ccontent{
+         /* content */
+ 
+@@ -13,7 +13,7 @@
+          position: absolute;
+          width: 985px;
+          height: 830.52px;
+-         left: 297px;
++         left: calc(50% - 985px/2);;
+          top: 50px;
+     
+     
+@@ -775,8 +775,9 @@
+         background: #9FA2A5;
+     }
+ }
+-@media only screen and (max-device-width: 549px){
++@media only screen and (max-device-width: 999px){
+     .ccontent{
++       
+         /* content */
+ 
+     
+@@ -801,6 +802,7 @@
+          flex-grow: 0;
+     }
+     .textcontent{
++
+         /* Text Content */
+    
+     
+@@ -861,7 +863,7 @@
+          bottom: 12.2%;
+             
+          /* Second Headline */
+-    
++         text-align: center;
+          font-family: Graphik;
+          font-style: normal;
+          font-weight: normal;
+@@ -880,6 +882,7 @@
+          flex: none;
+          order: 0;
+          flex-grow: 0;
++         margin: 0px;
+     }
+     .csubheading{
+         /* Sub Heading */
+@@ -938,6 +941,7 @@
+          flex: none;
+          order: 0;
+          flex-grow: 0;
++         margin: 0px;
+     }
+     .ccards{
+         /* Cards */
+diff --git a/lab2/cta.css b/lab2/cta.css
+index 3ce0aeb..f518212 100644
+--- a/lab2/cta.css
++++ b/lab2/cta.css
+@@ -1,4 +1,4 @@
+-@media only screen and (min-device-width: 550px){
++@media only screen and (min-device-width: 1444px){
+     .ctacontent{
+ 
+         /* content */
+@@ -174,9 +174,188 @@
+         margin: 0px 10px;
+     }
+ }
+-@media only screen and (max-device-width: 549px){
++@media only screen and (min-device-width: 1000px) and (max-device-width: 1443px){
+     .ctacontent{
++
++        /* content */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 100%;
++        height: 370px;
++        top: 80px;
++    
++        background: #343434;
++        /* shadow */
++    
++        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
++        border-radius: 33px;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .mediacontent{
++        
++        background: url(images/media-content.svg);
++        background-repeat: no-repeat;
++        background-position: 50% 100%;
++        /* media-content */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px 2px;
++    
++        position: absolute;
++        width: 48.32%;
++        height: 364px;
++        right: 0px;
++        top: 3px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++    }
++    .leftcontent{
++        
+    
++        /* left-content */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++    
++        position: absolute;
++        width: 44.63%;
++        height: 247px;
++        left: 0px;
++        top: 61.5px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .ctabutton{
++     
++        /* button */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: absolute;
++        width: 190px;
++        height: 52px;
++        left: 17.28%;
++        top: 178px;
++    
++        /* primary */
++    
++        background: url(images/buttoncta.png);
++        
++        /* shadow */
++    
++        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++     
++    }
++    .ctasecondheadline{
++     
++        /* Second Headline */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: absolute;
++        width: 91.73%;
++        height: 124px;
++        left: 17.28%;
++        top: 17px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++    }
++    .opentype{
++        
++        height: 124px;
++        width: 479px;
++        border-radius: nullpx;
++    
++        /* OpenType features and Variable fonts */
++    
++    
++        position: static;
++        left: 2%;
++        right: 2%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Second Headline */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: normal;
++        font-size: 52px;
++        line-height: 62px;
++        /* or 119% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 10px;
++    }
++}
++@media only screen and (max-device-width: 999px){
++    .ctacontent{
++        
+         /* content */
+     
+     
+@@ -188,14 +367,13 @@
+       padding: 0px;
+ 
+       position: absolute;
+-      width: 549px;
++      width: 100%;
+       height: 868px;
+-      left: 0px;
+       top: 0px;
+ 
+       /* dark background */
+ 
+-      background: #181818;
++      background: #1E1E1E;;
+ 
+       /* Inside Auto Layout */
+ 
+@@ -210,6 +388,8 @@
+         
+         
+         background: url(images/media_mob.svg);
++        background-repeat: no-repeat;
++        background-position: 50% 100%;
+         /* media-content */
+     
+     
+@@ -221,9 +401,9 @@
+         padding: 0px;
+     
+         position: absolute;
+-        width: 541px;
++        width: 100%;
+         height: 383px;
+-        right: 4px;
++        left: 0,73%;
+         top: 485px;
+     
+     
+@@ -235,7 +415,6 @@
+         margin: 0px;
+     }
+     .leftcontent{
+-       
+         /* left-content */
+     
+     
+@@ -243,13 +422,13 @@
+     
+         display: flex;
+         flex-direction: column;
+-        align-items: flex-start;
++        align-items: center;
+         padding: 0px;
+     
+         position: absolute;
+         width: 407px;
+         height: 483px;
+-        left: 71px;
++        left: calc(50% - 407px/2);
+         top: 0px;
+     
+     
+@@ -293,6 +472,7 @@
+         margin: 0px;
+     }
+     .ctasecondheadline{
++        
+        
+         /* Second Headline */
+     
+@@ -354,4 +534,32 @@
+         flex-grow: 0;
+         margin: 0px 10px;
+     }
++}
++@media only screen and (max-device-width: 548px){
++    .leftcontent{
++        
++        /* left-content */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 100%;
++        height: 483px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
+ }
+\ No newline at end of file
+diff --git a/lab2/features.css b/lab2/features.css
+index d9089e3..251209f 100644
+--- a/lab2/features.css
++++ b/lab2/features.css
+@@ -1,6 +1,967 @@
+-@media only screen and (min-device-width: 550px){
++@media only screen and (min-device-width: 1444px){
+     .fcontent{
+         /* content */
++  
++
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 93,6669%;
++        height: 988px;
++        left: calc(50% - 1479px/2);
++        top: 62px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        align-self: stretch;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .fheading{
++        /* heading */
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 602px;
++        height: 149px;
++        left: 438.5px;
++        top: 62px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++    }
++    .fsubheadingtext{
++             /* Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule. */
++    
++    
++        position: static;
++        left: 1.66%;
++        right: 1.66%;
++        top: 0%;
++        bottom: 0%;
++    
++        width: 582px;
++        height: 60px;
++        /* Sub Heading */
++        text-align: center;
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: normal;
++        font-size: 20px;
++        line-height: 30px;
++        /* or 150% */
++    
++        text-align: center;
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 10px;
++    }
++    .fsecondheadline{
++       /* Second Headline */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: static;
++        width: 251px;
++        height: 62px;
++        left: 175.5px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++    }
++    .fsubheading{
++
++       /* Sub Heading */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: absolute;
++        width: 602px;
++        height: 60px;
++        left: 0px;
++        top: 89px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++    }
++    .fsecondheadlinetext{
++        /* FEATURES */
++    
++    
++        position: static;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        width: 251px;
++        height: 62px;
++        /* Second Headline */
++        text-align: center;
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: normal;
++        font-size: 52px;
++        line-height: 62px;
++        /* identical to box height, or 119% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 10px 0px 0px;
++    }
++    .fframe{
++
++       /* Frame 20 */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 1088px;
++        height: 759px;
++        left: 245.5px;
++        top: 291px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++    }
++    .fcontentrows{
++       /* content rows */
++
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++    
++        position: absolute;
++        width: 309px;
++        height: 651px;
++        left: 779px;
++        top: 54px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++    }
++    .textblock1{
++
++       /* Text Block */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: static;
++        width: 269px;
++        height: 196px;
++        left: 20px;
++        top: 20px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 20px 20px;
++    }
++    .headline1{
++ 
++       /* HEADLINE */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: static;
++        width: 204.49px;
++        height: 80px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .title1{
++
++       /* Title */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++    
++        position: static;
++        width: 173px;
++        height: 80px;
++        left: 31.49px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .asingle{
++        height: 60px;
++        width: 153px;
++        border-radius: nullpx;
++    
++       /* A single source of truth */
++    
++    
++        position: static;
++        left: 10px;
++        top: 10px;
++    
++        /* Title */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 20px;
++        line-height: 30px;
++        /* or 150% */
++    
++        letter-spacing: 0.1px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        align-self: flex-start;
++        flex-grow: 0;
++        margin: 10px 10px;
++        }
++    .icon1{
++
++       /* ic:round-restaurant-menu */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++    
++        position: static;
++        width: 31.49px;
++        height: 61.66px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .vector{
++
++        height: 23.66px;
++        width: 25.49px;
++        border-radius: 0px;
++    
++       /* Vector */
++    
++    
++        position: static;
++        left: 9.53%;
++        right: 9.53%;
++        top: 30.81%;
++        bottom: 30.81%;
++    
++        /* secondary */
++    
++        background: url(images/Vector.svg);
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 19px 3px;
++    }
++    .paragraphe1{
++
++       /* Paragraphe */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: static;
++        width: 269px;
++        height: 116px;
++        left: 0px;
++        top: 80px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .when{
++  
++        height: 96px;
++        width: 249px;
++        border-radius: nullpx;
++    
++       /* When you add work to your Slate calendar we automatically calculate useful insights */
++    
++    
++        position: static;
++        left: 3.72%;
++        right: 3.72%;
++        top: 8.62%;
++        bottom: 8.62%;
++    
++        /* Paragraphe */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: normal;
++        font-size: 16px;
++        line-height: 24px;
++        /* or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 10px;
++    }
++    .textblock2{
++
++       /* Text Block */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: static;
++        width: 269px;
++        height: 196px;
++        left: 20px;
++        top: 241px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 5px 20px;
++    }
++    .headline2{
++ 
++        /* HEADLINE */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: static;
++        width: 140px;
++        height: 80px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++    }
++    .title2{
++
++        /* Title */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: static;
++        width: 107px;
++        height: 80px;
++        left: 33px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .intuitive{
++
++        height: 60px;
++        width: 87px;
++        border-radius: nullpx;
++    
++    
++        /* Intuitive interface */
++    
++    
++        position: static;
++        left: 9.35%;
++        right: 9.35%;
++        top: 12.5%;
++        bottom: 12.5%;
++    
++        /* Title */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 20px;
++        line-height: 30px;
++        /* or 150% */
++    
++        letter-spacing: 0.1px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        align-self: flex-start;
++        flex-grow: 0;
++        margin: 10px 10px;
++     }
++    .icon2{
++
++        /* mdi:alien-outline */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: static;
++        width: 33px;
++        height: 60px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .vector1{
++
++        height: 30px;
++        width: 29px;
++        border-radius: 0px;
++    
++    
++        /* Vector */
++    
++    
++        position: static;
++        left: 6.06%;
++        right: 6.06%;
++        top: 25%;
++        bottom: 25%;
++    
++        /* secondary */
++    
++        background: url(images/Vector1.svg);
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 15px 2px;
++    }
++    .paragraphe2{
++
++        /* Paragraphe */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: static;
++        width: 269px;
++        height: 116px;
++        left: 0px;
++        top: 80px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .when1{
++
++        height: 96px;
++        width: 249px;
++        border-radius: nullpx;
++    
++    
++        /* When you add work to your Slate calendar we automatically calculate useful insights */
++    
++    
++        position: static;
++        left: 3.72%;
++        right: 3.72%;
++        top: 8.62%;
++        bottom: 8.62%;
++    
++        /* Paragraphe */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: normal;
++        font-size: 16px;
++        line-height: 24px;
++        /* or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 10px 10px;
++    }
++    .textblock3{
++  
++       /* Text Block */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: static;
++        width: 269px;
++        height: 169px;
++        left: 20px;
++        top: 462px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++        margin: 25px 20px;
++    }
++    .headline3{
++
++        /* HEADLINE */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: static;
++        width: 185px;
++        height: 53px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .title3{
++
++        /* Title */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: static;
++        width: 144px;
++        height: 50px;
++        left: 41px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .or{
++   
++        height: 30px;
++        width: 124px;
++        border-radius: nullpx;
++    
++    
++    
++        /* Or with rules */
++    
++    
++        position: static;
++        left: 6.94%;
++        right: 6.94%;
++        top: 20%;
++        bottom: 20%;
++    
++        /* Title */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 20px;
++        line-height: 30px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.1px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        align-self: flex-start;
++        flex-grow: 0;
++        margin: 10px 10px;
++     }
++    .icon3{
++
++        /* mdi:all-inclusive */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++    
++        position: static;
++        width: 41px;
++        height: 53px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .vector2{
++ 
++    
++        height: 19px;
++        width: 41px;
++        border-radius: 0px;
++    
++    
++    
++        /* Vector */
++    
++    
++        position: static;
++        left: 0%;
++        right: 0%;
++        top: 32.08%;
++        bottom: 32.08%;
++    
++        /* secondary */
++    
++        background: url(images/Vector2.svg);
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 17px 0px;
++    }
++    .paragraphe3{
++
++        /* Paragraphe */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: static;
++        width: 269px;
++        height: 116px;
++        left: 0px;
++        top: 53px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .when2{
++ 
++        height: 96px;
++        width: 249px;
++        border-radius: nullpx;
++    
++    
++    
++        /* When you add work to your Slate calendar we automatically calculate useful insights */
++    
++    
++        position: static;
++        left: 3.72%;
++        right: 3.72%;
++        top: 8.62%;
++        bottom: 8.62%;
++    
++        /* Paragraphe */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: normal;
++        font-size: 16px;
++        line-height: 24px;
++        /* or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 10px 10px;
++    }
++    .fimages{
++       /* Frame 19 */
++    
++    
++        position: static;
++        width: 752px;
++        height: 759px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++    }
++    .linechart{
++
++       /* Line Chart 1 */
++    
++    
++        position: absolute;
++        width: 400px;
++        height: 276px;
++        left: 352px;
++        top: 483.5px;
++    
++        background: url(images/LineChart1.png);
++        /* shadow */
++    
++        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
++    
++    }
++    .chatbot{
++    
++       /* Chat Bot */
++    
++    
++        position: absolute;
++        width: 696px;
++        height: 659px;
++        left: 28px;
++        top: 0.5px;
++    
++        background: url(images/ChatBot.png);
++        /* shadow */
++    
++        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
++    
++    }    
++}
++@media only screen and (min-device-width: 1000px) and (max-device-width: 1443px){
++    .fcontent{
++
++        /* content */
++  
+ 
+         /* Auto Layout */
+     
+@@ -9,10 +970,10 @@
+         align-items: center;
+         padding: 0px;
+     
+-        position: static;
+-        width: 1479px;
++        position: absolute;
++        width: 93.6669%;
+         height: 988px;
+-        left: calc(50% - 1479px/2);
++        left: 3.17%;
+         top: 62px;
+     
+     
+@@ -22,9 +983,10 @@
+         order: 0;
+         align-self: stretch;
+         flex-grow: 0;
+-        margin: 62px 50px;
++        margin: 0px;
+     }
+     .fheading{
++
+         /* heading */
+     
+         /* Auto Layout */
+@@ -35,10 +997,9 @@
+         padding: 0px;
+     
+         position: absolute;
+-        width: 602px;
++        width: 50%;
+         height: 149px;
+-        left: 438.5px;
+-        top: 62px;
++        top: 0px;
+     
+     
+         /* Inside Auto Layout */
+@@ -51,13 +1012,13 @@
+              /* Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule. */
+     
+     
+-        position: static;
++        position: absolute;
+         left: 1.66%;
+         right: 1.66%;
+         top: 0%;
+         bottom: 0%;
+     
+-        width: 582px;
++        width: 100%;
+         height: 60px;
+         /* Sub Heading */
+         text-align: center;
+@@ -81,7 +1042,7 @@
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+-        margin: 0px 10px;
++        margin: 0px;
+     }
+     .fsecondheadline{
+        /* Second Headline */
+@@ -94,10 +1055,10 @@
+         align-items: center;
+         padding: 0px;
+     
+-        position: static;
++        position: absolute;
+         width: 251px;
+         height: 62px;
+-        left: 175.5px;
++
+         top: 0px;
+     
+     
+@@ -109,6 +1070,7 @@
+     }
+     .fsubheading{
+ 
++
+        /* Sub Heading */
+     
+     
+@@ -119,7 +1081,7 @@
+         align-items: center;
+     
+         position: absolute;
+-        width: 602px;
++        width: 100%;
+         height: 60px;
+         left: 0px;
+         top: 89px;
+@@ -135,7 +1097,7 @@
+         /* FEATURES */
+     
+     
+-        position: static;
++        position: absolute;
+         left: 0%;
+         right: 0%;
+         top: 0%;
+@@ -163,7 +1125,7 @@
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+-        margin: 0px 10px 0px 0px;
++        margin: 0px;
+     }
+     .fframe{
+ 
+@@ -178,10 +1140,10 @@
+         padding: 0px;
+     
+         position: absolute;
+-        width: 1088px;
++        width: 100%;
+         height: 759px;
+-        left: 245.5px;
+-        top: 291px;
++        left: 0px;
++        top: 229px;
+     
+     
+         /* Inside Auto Layout */
+@@ -189,8 +1151,10 @@
+         flex: none;
+         order: 1;
+         flex-grow: 0;
++        margin: 0px;
+     }
+     .fcontentrows{
++
+        /* content rows */
+ 
+     
+@@ -201,10 +1165,10 @@
+         align-items: flex-start;
+     
+         position: absolute;
+-        width: 309px;
++        width: 28.4%;
+         height: 651px;
+-        left: 779px;
+         top: 54px;
++        left: 71.6%;
+     
+     
+         /* Inside Auto Layout */
+@@ -905,11 +1869,12 @@
+         margin: 10px 10px;
+     }
+     .fimages{
++
+        /* Frame 19 */
+     
+     
+-        position: static;
+-        width: 752px;
++        position: absolute;
++        width: 69.12%;
+         height: 759px;
+         left: 0px;
+         top: 0px;
+@@ -923,41 +1888,46 @@
+     }
+     .linechart{
+ 
++
+        /* Line Chart 1 */
+     
+     
+         position: absolute;
+-        width: 400px;
++        width: 53.19%;
+         height: 276px;
+-        left: 352px;
++        left: 46.81%;
+         top: 483.5px;
+     
+         background: url(images/LineChart1.png);
++        background-repeat: no-repeat;
++        background-position: 50% 100%;
+         /* shadow */
+     
+         filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+     
+     }
+     .chatbot{
+-    
+        /* Chat Bot */
+     
+     
+         position: absolute;
+-        width: 696px;
++        width: 92.55%;
+         height: 659px;
+-        left: 28px;
++        left: 3.72%;
+         top: 0.5px;
+     
+         background: url(images/ChatBot.png);
++        background-repeat: no-repeat;
++        background-position: 50% 100%;
+         /* shadow */
+     
+         filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+     
+-    }    
++    }  
+ }
+-@media only screen and (max-device-width: 549px){
++@media only screen and (max-device-width: 999px){
+     .fcontent{
++
+         /* content */
+        
+         /* Auto Layout */
+@@ -970,7 +1940,7 @@
+         position: absolute;
+         width: 449px;
+         height: 1290px;
+-        left: 50px;
++        left: calc(50% - 449px/2);
+         top: 62px;
+     
+     
+@@ -1124,7 +2094,7 @@
+         margin: 0px 10px 0px 0px;
+     }
+     .fframe{
+- 
++        
+        /* Frame 20 */
+     
+     
+@@ -1149,6 +2119,8 @@
+         flex-grow: 0;
+     }
+     .fcontentrows{
++
++        
+        /* content rows */
+ 
+     
+@@ -1156,7 +2128,7 @@
+     
+         display: flex;
+         flex-direction: column;
+-        align-items: flex-start;
++        align-items: center;
+     
+         position: absolute;
+         width: 309px;
+@@ -1170,6 +2142,7 @@
+         flex: none;
+         order: 1;
+         flex-grow: 0;
++        margin: 0px;
+     }
+     .textblock1{
+ 
+@@ -1863,7 +2836,8 @@
+         margin: 10px 10px;
+     }
+     .fimages{
+- 
++
++        
+        /* Frame 19 */
+     
+     
+@@ -1914,4 +2888,118 @@
+         filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+     
+     }
++}
++@media only screen and (max-device-width: 548px){
++    .fcontent{
++        
++        /* content */
++       
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 100%;
++        height: 1290px;
++        left: 0px;
++        top: 62px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        align-self: stretch;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .fsubheading{
++
++        
++        /* Sub Heading */
++     
++     
++         /* Auto Layout */
++     
++         display: flex;
++         flex-direction: row;
++         align-items: center;
++     
++         position: relative;
++         width: 100%;
++         height: 90px;
++         left: 0px;
++         top: 27px;
++     
++     
++         /* Inside Auto Layout */
++     
++         flex: none;
++         order: 1;
++         flex-grow: 0;
++     }
++     .fheading{
++        /* heading */
++
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++        padding: 0px;
++    
++        position: relative;
++        width: 100%;
++        height: 179px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++    }
++    .fsubheadingtext{
++
++             /* Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule. */
++    
++        position: absolute;
++        height: 90px;
++        width: 95%;
++        left: 2.32%;
++        right: 2.32%;
++        top: 0%;
++        bottom: 0%;
++        border-radius: nullpx;
++             
++        /* Sub Heading */
++        text-align: center;
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: normal;
++        font-size: 20px;
++        line-height: 30px;
++        /* or 150% */
++    
++        text-align: center;
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
+ }
+\ No newline at end of file
+diff --git a/lab2/footer.css b/lab2/footer.css
+index 429bcc9..da84be8 100644
+--- a/lab2/footer.css
++++ b/lab2/footer.css
+@@ -1,4 +1,4 @@
+-@media only screen and (min-device-width: 550px){
++@media only screen and (min-device-width: 1444px){
+     .foocontent{
+ 
+         /* content */
+@@ -14,8 +14,9 @@
+         position: absolute;
+         width: 1031px;
+         height: 223px;
+-        left: 274px;
++        left: auto;
+         top: 107px;
++        
+     
+     
+         /* Inside Auto Layout */
+@@ -1524,7 +1525,1536 @@
+         margin: 0px;
+     }
+ }
+-@media only screen and (max-device-width: 549px){
++@media only screen and (min-device-width: 1000px) and (max-device-width: 1443px){
++    .foocontent{
++        
++        /* content */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: absolute;
++        width: 65.29%;
++        height: 223px;
++        left: 17.355%;
++        top: 107px;
++        
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .row{
++        
++        /* row */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: absolute;
++        width: 27%;
++        height: 190.99px;
++        left: 73%;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .column{
++
++        /* column */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: absolute;
++        width: 49.76%;
++        height: 223px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .crow{
++
++        
++        /* row */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: absolute;
++        width: 513px;
++        height: 223px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++    }
++    .aboutlist{
++ 
++        /* List */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: absolute;
++        width: 121px;
++        height: 223px;
++        left: 392px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .abouttitle{
++  
++        /* Title */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 59px;
++        height: 30px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .fabout{
++
++        border-radius: nullpx;
++    
++        /* About */
++    
++    
++        position: absolute;
++        width: 59px;
++        height: 30px;
++        left: 0px;
++        top: 0px;
++    
++        /* Title */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 20px;
++        line-height: 30px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.1px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .aboutlinks{
++    
++        /* Links */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: absolute;
++        width: 121px;
++        height: 153px;
++        left: 0px;
++        top: 70px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .updates1{
++   
++        /* Link */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 65px;
++        height: 24px;
++        left: 0px;
++        top: 129px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 3;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .updatestext1{
++        /* Updates */
++    
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++        padding: 0px;
++    }
++    .pricing1{
++   
++        /* Link */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 56px;
++        height: 24px;
++        left: 0px;
++        top: 86px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .pricingtext1{
++        /* Pricing */
++    
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++        padding: 0px;
++    }
++    .examples1{
++    
++        /* Link */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 75px;
++        height: 24px;
++        left: 0px;
++        top: 43px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .examplestext1{
++        /* Examples */
++    
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++        padding: 0px;
++    }
++    .home1{
++  
++        /* Link */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 47px;
++        height: 24px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .hometext1{
++        /* Home */
++    
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++        padding: 0px;
++    }
++    .resourceslist{
++  
++        /* List */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: absolute;
++        width: 121px;
++        height: 223px;
++        left: 196px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .resourcestitle{
++   
++        /* Title */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 101px;
++        height: 30px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .resources{
++ 
++        border-radius: nullpx;
++    
++        /* Resources */
++    
++        position: absolute;
++        height: 30px;
++        width: 101px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Title */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 20px;
++        line-height: 30px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.1px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .resourceslinks{
++    
++        /* Links */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: absolute;
++        width: 121px;
++        height: 153px;
++        left: 0px;
++        top: 70px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .updates2{
++ 
++        /* Link */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 65px;
++        height: 24px;
++        left: 0px;
++        top: 129px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 3;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .updatestext2{
++        /* Updates */
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .pricing2{
++    
++        /* Link */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 56px;
++        height: 24px;
++        left: 0px;
++        top: 86px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .pricingtext2{
++        /* Pricing */
++    
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .examples2{
++
++        /* Link */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 75px;
++        height: 24px;
++        left: 0px;
++        top: 43px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .examplestext2{
++        /* Examples */
++    
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .home2{
++ 
++        /* Link */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 47px;
++        height: 24px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .hometext2{
++        /* Home */
++    
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .fingertipelist{
++  
++        /* List */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: absolute;
++        width: 121px;
++        height: 223px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .fingertipetitle{
++ 
++        /* Title */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 99px;
++        height: 30px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .fingertipe{
++
++        border-radius: nullpx;
++    
++        /* Fingertipe */
++    
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Title */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 20px;
++        line-height: 30px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.1px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .fingertipelinks{
++
++        /* Links */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: flex-start;
++        padding: 0px;
++    
++        position: absolute;
++        width: 121px;
++        height: 153px;
++        left: 0px;
++        top: 70px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .updates3{
++    
++        /* Link */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 65px;
++        height: 24px;
++        left: 0px;
++        top: 129px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 3;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .updatestext3{
++        /* Updates */
++    
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .pricing3{
++
++        /* Link */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 56px;
++        height: 24px;
++        left: 0px;
++        top: 86px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .pricingtext3{
++        /* Pricing */
++    
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .examples3{
++   
++        /* Link */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 75px;
++        height: 24px;
++        left: 0px;
++        top: 43px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .examplestext3{
++        /* Examples */
++    
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .home3{
++    
++        /* Link */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 47px;
++        height: 24px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++        margin: 0px;
++    }
++    .hometext3{
++        /* Home */
++    
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .socialmedia{
++
++        height: 80.99px;
++        width: 170.96px;
++        border-radius: 0px;
++    
++        /* social media */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++    
++        position: absolute;
++        width: 170.96px;
++        height: 80.99px;
++        left: 0px;
++        top: 110px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .blocknum{
++
++        
++        height: 44px;
++        width: 176px;
++        border-radius: 0px;
++    
++        /* block */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        left: 0%;
++        right: 44.83%;
++        top: 29.32%;
++        bottom: 47.64%;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .number{
++
++        /* adress */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: static;
++        width: 141px;
++        height: 44px;
++        left: 35px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++    }
++    .numbertext{
++  
++        /* (239) 555-0108 */
++    
++    
++        position: static;
++        left: 7.09%;
++        right: 7.09%;
++        top: 22.73%;
++        bottom: 22.73%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 10px;
++    }
++    .phone{
++        /* ic:baseline-phone-android */
++    
++    
++        position: static;
++        width: 35px;
++        height: 35px;
++        left: 0px;
++        top: 4.5px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .phonevec{
++        height: 32.08333206176758px;
++        width: 20.416667938232422px;
++        left: 7.29px;
++        top: 1.46px;
++        border-radius: 0px;
++    
++        /* Vector */
++    
++    
++        position: static;
++        left: 20.83%;
++        right: 20.83%;
++        top: 4.17%;
++        bottom: 4.17%;
++    
++        /* light text */
++    
++        background: url(images/phone.svg);
++        margin: 1.46px 7.29px;
++    }
++    .blockadr{
++
++        height: 46px;
++        width: 309px;
++        border-radius: 0px;
++        /* block */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        left: 0%;
++        right: 0%;
++        top: 0%;
++        bottom: 75.91%;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .bx-map{
++        background: url(images/bx_bx-map.svg);
++        height: 46px;
++        width: 46px;
++        border-radius: 0px;
++    
++        /* bx:bx-map */
++    
++    
++        position: static;
++        width: 46px;
++        height: 46px;
++        left: 0px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .adress{
++
++
++        /* adress */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: static;
++        width: 263px;
++        height: 24px;
++        left: 46px;
++        top: 11px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .Mock{
++ 
++        height: 24px;
++        width: 257px;
++        border-radius: nullpx;
++    
++        /* 7480 Mockingbird Hill undefined */
++    
++    
++        position: static;
++        left: 2.93%;
++        right: 2.93%;
++        top: 0%;
++        bottom: 0%;
++    
++        /* Link */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 8px;
++    }
++    .linkedin{
++
++        /* ant-design:linkedin-filled */
++    
++    
++        position: absolute;
++        width: 40.99px;
++        height: 40.99px;
++        left: 129.97px;
++        top: 20px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .linkedinvec{
++        height: 32.02px;
++        width: 32.02px;
++        border-radius: 0px;
++    
++        /* Vector */
++    
++    
++        position: absolute;
++        left: 10.94%;
++        right: 10.93%;
++        top: 10.94%;
++        bottom: 10.94%;
++    
++        /* light text */
++    
++        background: url(images/linkedin.svg);
++        margin: 0px;
++    }
++    .facebook{
++
++        /* ant-design:facebook-filled */
++    
++    
++        position: absolute;
++        width: 40.99px;
++        height: 40.99px;
++        left: 64.99px;
++        top: 20px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .facebookvec{
++        height: 32.02px;
++        width: 32.02px;
++        border-radius: 0px;
++        /* Vector */
++    
++    
++        position: absolute;
++        left: 10.94%;
++        right: 10.94%;
++        top: 10.94%;
++        bottom: 10.94%;
++    
++        /* light text */
++        background: url(images/facebook.svg);
++        margin: 0px;
++    }
++    .twitter{
++
++        /* ant-design:twitter-outlined */
++    
++    
++        position: absolute;
++        width: 40.99px;
++        height: 40.99px;
++        left: 0px;
++        top: 20px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .twittervec{
++        height: 27.06px;
++        width: 33.31px;
++        border-radius: 0px;
++    
++        /* Vector */
++    
++    
++        position: absolute;
++        left: 9.37%;
++        right: 9.37%;
++        top: 16.99%;
++        bottom: 16.99%;
++    
++        /* light text */
++    
++        background: url(images/twitter.svg);
++        margin: 0px;
++    }
++}
++@media only screen and (max-device-width: 999px){
+     .foocontent{
+ 
+         /* content */
+@@ -1540,7 +3070,7 @@
+         position: absolute;
+         width: 319px;
+         height: 1084.99px;
+-        left: 115px;
++        left: calc(50% - 319px/2);
+         top: 107px;
+     
+     
+diff --git a/lab2/gallery.css b/lab2/gallery.css
+index 160454b..6d633a1 100644
+--- a/lab2/gallery.css
++++ b/lab2/gallery.css
+@@ -1,4 +1,4 @@
+-@media only screen and (min-device-width: 550px){
++@media only screen and (min-device-width: 1444px){
+     .gcontent{
+         /* content */
+         
+@@ -527,7 +527,595 @@
+         margin: 0px 10px;
+     }
+ }
+-@media only screen and (max-device-width: 549px){
++@media only screen and (min-device-width: 1000px) and (max-device-width: 1443px){
++    .gcontent{
++        /* content */
++        
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 100%;
++        height: 916px;
++        top: 50px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .gtextcontent{
++        
++        /* Text Content */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++        padding: 0px;
++    
++        position: static;
++        width: 591px;
++        height: 162px;
++        left: 248px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++    }
++    .gsecondheadline{
++        
++        /* Second Headline */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: static;
++        width: 193px;
++        height: 82px;
++        left: 199px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .textgallery{
++        
++        height: 62px;
++        width: 173px;
++        border-radius: nullpx;
++    
++        /* Gallery */
++    
++    
++        position: static;
++        left: 5.18%;
++        right: 5.18%;
++        top: 12.2%;
++        bottom: 12.2%;
++    
++        /* Second Headline */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: normal;
++        font-size: 52px;
++        line-height: 62px;
++        /* identical to box height, or 119% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 10px;
++    }
++    .gsubheading{
++        
++        /* Sub Heading */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: static;
++        width: 591px;
++        height: 80px;
++        left: 0px;
++        top: 82px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .gwefocus{
++        
++        height: 60px;
++        width: 571px;
++        border-radius: nullpx;
++    
++        /* We focus on ergonomics and meeting you where you work. It's only a keystroke away. */
++    
++    
++        position: static;
++        left: 1.69%;
++        right: 1.69%;
++        top: 12.5%;
++        bottom: 12.5%;
++    
++        /* Sub Heading */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: normal;
++        font-size: 20px;
++        line-height: 30px;
++        /* or 150% */
++    
++        text-align: center;
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 10px;
++    }
++    .gtopcards{
++        
++        /* Cards */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: static;
++        width: 999px;
++        height: 285px;
++        left: 44px;
++        top: 206px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 44px 0px;
++    }
++    .gcard1{
++        
++        /* Card */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: static;
++        width: 225px;
++        height: 285px;
++        left: 0px;
++        top: 0px;
++    
++        background: url(images/Rectangle1.svg);
++        /* shadow */
++    
++        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
++        border-radius: 12px;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 33px 0px 0px;
++    }
++    .gcard2{
++        /* Card */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: static;
++        width: 225px;
++        height: 285px;
++        left: 258px;
++        top: 0px;
++    
++        background: url(images/Rectangle2.svg), #FFFFFF;
++        /* shadow */
++    
++        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
++        border-radius: 12px;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px 33px 0px 0px;
++    }
++    .gcard3{
++        /* Card */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: static;
++        width: 225px;
++        height: 285px;
++        left: 516px;
++        top: 0px;
++    
++        background: url(images/Rectangle3.svg), #FFFFFF;
++        /* shadow */
++    
++        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
++        border-radius: 12px;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++        margin: 0px 33px 0px 0px;
++    }
++    .gcard4{
++        /* Card */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: static;
++        width: 225px;
++        height: 285px;
++        left: 774px;
++        top: 0px;
++    
++        background: url(images/Rectangle4.svg), #FFFFFF;
++        /* shadow */
++    
++        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
++        border-radius: 12px;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 3;
++        flex-grow: 0;
++    }
++    .gbottomcards{
++        
++        /* Cards */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: static;
++        width: 1087px;
++        height: 285px;
++        left: 0px;
++        top: 535px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++    }
++    .gcard5{
++        /* Card */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: static;
++        width: 395px;
++        height: 285px;
++        left: 0px;
++        top: 0px;
++    
++        background: url(images/Rectangle5.svg), #FFFFFF;
++        /* shadow */
++    
++        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
++        border-radius: 12px;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++    }
++    .gcard6{
++        /* Card */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: static;
++        width: 225px;
++        height: 285px;
++        left: 428px;
++        top: 0px;
++    
++        background: url(images/Rectangle6.svg), #FFFFFF;
++        /* shadow */
++    
++        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
++        border-radius: 12px;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px 33px;
++    }
++    .gcard7{
++        /* Card */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: static;
++        width: 401px;
++        height: 285px;
++        left: 686px;
++        top: 0px;
++    
++        background: url(images/Rectangle7.svg), #FFFFFF;
++        /* shadow */
++    
++        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
++        border-radius: 12px;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++    }
++    .gbutton{
++    
++        background: url(images/SeeMore.png);
++        /* button */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 10px 30px;
++    
++        position: absolute;
++        width: 136px;
++        height: 52px;
++        left: calc(50% - 136px/2);
++        top: 864px;
++    
++        /* light text */
++    
++    
++        box-sizing: border-box;
++        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 3;
++        flex-grow: 0;
++        margin: 0px;
++    }
++}
++@media only screen and (min-device-width: 1000px) and (max-device-width: 1087px){
++    .gbottomcards{
++        
++        /* Cards */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 100%;
++        height: 285px;
++        left: 0px;
++        top: 535px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++    }
++    .gcard5{
++        /* Card */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 36.34%;
++        height: 285px;
++        left: 0px;
++        top: 0px;
++    
++        background: url(images/Rectangle5.svg), #FFFFFF;
++        background-repeat: no-repeat;
++        background-position: 50% 100%;
++        /* shadow */
++    
++        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
++        border-radius: 12px;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++    }
++    .gcard6{
++        /* Card */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 20.7%;
++        height: 285px;
++        left: 39.37%;
++        top: 0px;
++    
++        background: url(images/Rectangle6.svg), #FFFFFF;
++        background-repeat: no-repeat;
++        background-position: 50% 100%;
++        /* shadow */
++    
++        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
++        border-radius: 12px;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .gcard7{
++        /* Card */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 36.89%;
++        height: 285px;
++        left: 63.11%;
++        top: 0px;
++    
++        background: url(images/Rectangle7.svg), #FFFFFF;
++        background-repeat: no-repeat;
++        background-position: 50% 100%;
++        /* shadow */
++    
++        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
++        border-radius: 12px;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++    }
++}
++@media only screen and (max-device-width: 999px){
+     .gcontent{
+         /* content */
+ 
+@@ -740,10 +1328,10 @@
+         align-items: center;
+         padding: 0px;
+     
+-        position: absolute;
++        position: relative;
+         width: 329px;
+         height: 285px;
+-        left: 35.5px;
++        left: 0px;
+         top: 0px;
+     
+         background: url(images/Rectangle1_mob.svg);
+@@ -757,7 +1345,7 @@
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+-        margin: 0px 33px 0px 0px;
++        margin: 0px;
+     }
+     .gcard2{
+         /* Card */
+@@ -770,11 +1358,11 @@
+         align-items: center;
+         padding: 0px;
+     
+-        position: absolute;
++        position: relative;
+         width: 323px;
+         height: 285px;
+-        left: 38.5px;
+-        top: 318px;
++        left: 0px;
++        top: 33px;
+     
+         background: url(images/Rectangle2_mob.svg), #FFFFFF;
+         /* shadow */
+@@ -800,11 +1388,11 @@
+         align-items: center;
+         padding: 0px;
+     
+-        position: absolute;
++        position: relative;
+         width: 317px;
+         height: 285px;
+-        left: 41.5px;
+-        top: 636px;
++        left: 0px;
++        top: 66px;
+     
+         background: url(images/Rectangle3_mob.svg), #FFFFFF;
+         /* shadow */
+@@ -830,11 +1418,11 @@
+         align-items: center;
+         padding: 0px;
+     
+-        position: absolute;
++        position: relative;
+         width: 305px;
+         height: 285px;
+-        left: 47.5px;
+-        top: 954px;
++        left: 0px;
++        top: 99px;
+     
+         background: url(images/Rectangle4_mob.svg), #FFFFFF;
+         /* shadow */
+@@ -866,7 +1454,7 @@
+         position: absolute;
+         width: 136px;
+         height: 52px;
+-        left: 132px;
++        left: calc(50% - 136px/2);
+         top: 1519px;
+     
+         /* light text */
+@@ -943,4 +1531,56 @@
+         flex-grow: 0;
+         margin: 0px 10px;
+     }
++}
++@media only screen and (max-device-width: 548px){
++    .gcontent{
++        /* content */
++
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 100%;
++        height: 1571px;
++        left: 0px;
++        top: 50px;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .gtopcards{
++       
++        /* Cards */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++        padding: 0px;
++    
++        position: absolute;
++        width: 100%;
++        height: 1239px;
++        left: 0px;
++        top: 236px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
+ }
+\ No newline at end of file
+diff --git a/lab2/header.css b/lab2/header.css
+index f400bb0..b473442 100644
+--- a/lab2/header.css
++++ b/lab2/header.css
+@@ -1,6 +1,6 @@
+-@media only screen and (min-device-width: 550px){
++@media only screen and (min-device-width: 1444px){
+     .header-text{
+-        width: 1579px;
++        width: 100%;
+         height: 393px;
+         position: absolute;
+         top: 154px;
+@@ -25,7 +25,7 @@
+ 
+     }
+     .header-headline{
+-        
++
+         /* headline */
+ 
+ 
+@@ -238,13 +238,204 @@
+     }
+     .screens{
+        background: url(images/desktop/screens.svg);
+-       width: 1579px;
++       background-repeat: no-repeat;
++       background-position: 50% 100%;
++       width: 100%;
+        height: 993px;
+        position: absolute;
+        top: 682px;
+     }
+ }
+-@media only screen and (max-device-width: 549px){
++@media only screen and (min-device-width: 1000px) and (max-device-width: 1443px){
++    .header-text{
++
++        width: 100%;
++        height: 393px;
++        position: absolute;
++        top: 154px;
++        
++
++        /* Text */
++
++
++        /* Auto Layout */
++
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++ 
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 1;
++        align-self: stretch;
++        flex-grow: 0;
++
++    }
++    .header-headline{
++        
++        /* headline */
++
++
++        /* Auto Layout */
++
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++
++        position: absolute;
++        width: 70%;
++        height: 196px;
++        top: 50px;
++        left: 15%;
++
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .header-headline-text{
++    
++        width: 97.26%;
++        height: 89.8%;
++        /* Work at the speed of thought */
++
++
++        position: absolute;
++        left: 1.37%;
++        right: 1.37%;
++        top: 5.1%;
++        bottom: 5.1%;
++
++        /* Headline */
++
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 80px;
++        line-height: 88px;
++        /* or 110% */
++
++        text-align: center;
++        letter-spacing: 0.2px;
++
++        /* light text */
++
++        color: #FFFFFF;
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .header-subheading{
++
++        /* Sub Heading */
++
++
++        /* Auto Layout */
++
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++
++        position: absolute;
++        width: 38.13%;
++        height: 80px;
++        top: 263px;
++
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .header-subheading-text{
++        
++        width: 96.68%;
++        height: 75%;
++        /* Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule. */
++
++
++        position: absolute;
++        left: 1.66%;
++        right: 1.66%;
++        top: 12.5%;
++        bottom: 12.5%;
++
++        /* Sub Heading */
++
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: normal;
++        font-size: 1,194%;
++        line-height: 1,79%;
++        /* or 150% */
++
++        text-align: center;
++        letter-spacing: 0.2px;
++
++        /* light text */
++
++        color: #FFFFFF;
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .header-buttons{
++        
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++        width: 307px;
++        height: 65px;
++        top: 582px;
++        position: absolute;
++    }
++    .buttonlearn{
++        background:url(images/buttonlearn.png);
++        width: 136px;
++        height: 65px;
++        position: relative;
++        top: 0px;
++        left: 0px;
++        margin: 0px 0px 0px 171px;
++    }
++    .buttontry{
++        background:url(images/buttontry.png);
++        width: 136px;
++        height: 65px;
++        position: relative;
++        top: 0px;
++        left: 0px;
++    }
++
++    .screens{
++       background: url(images/desktop/screens.svg);
++       background-repeat: no-repeat;
++       background-position: 50% 100%;
++       width: 100%;
++       height: 100%;
++       position: absolute;
++       top: 40,72%;
++    }
++} 
++@media only screen and (max-device-width: 999px){
+     .header-text{
+         
+         /* text content */
+@@ -258,9 +449,8 @@
+         padding: 0px;
+ 
+         position: absolute;
+-        width: 402px;
++        width: 100%;
+         height: 353px;
+-        left: 73.5px;
+         top: 164px;
+ 
+ 
+@@ -400,7 +590,7 @@
+         padding: 0px;
+         width: 136px;
+         height: 151px;
+-        left: 206.5px;
++        left: calc(50% - 136px/2);
+         top: 574px;
+         position: absolute;
+     }
+@@ -414,67 +604,76 @@
+         margin: 0px;
+         padding: 0px;
+     }
+-    .textlearn{
+-        /* Learn More */
+-
++    .buttontry{
++        background:url(images/desktop/buttontry.svg);
++        width: 136px;
++        height: 65px;
++        position: relative;
++        left: 0px;
++        top: 0px;
++        margin: 0px;
++        padding: 0px;
++    }
++    .screens{
++        background: url(images/screens_mob.svg);
++        background-repeat: no-repeat;
++        background-position: 50% 100%;
++        width: 100%;
++        height: 453px;
+ 
+-        position: static;
+-        left: 13.16%;
+-        right: 13.16%;
+-        top: 22.22%;
+-        bottom: 22.22%;
++        top: 782px;
++        border-radius: 0px;
++        position: absolute;
++    }
++}
++@media only screen and (max-device-width: 548px){
++    .header-subheading{
++        
++        /* Sub Heading */
+ 
+-        /* Button */
+ 
+-        font-family: Graphik;
+-        font-style: normal;
+-        font-weight: 500;
+-        font-size: 17px;
+-        line-height: 25px;
+-        /* identical to box height, or 147% */
++        /* Auto Layout */
+ 
+-        letter-spacing: 0.2px;
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
+ 
+-        /* light background */
++        position: absolute;
++        width: 96%;
++        height: 140px;
++        left: 2%;
++        top: 213px;
+ 
+-        color: #FFFFFF;
+ 
+         /* Inside Auto Layout */
+ 
+         flex: none;
+-        order: 0;
++        order: 1;
+         flex-grow: 0;
+-        margin: 0px 10px;
+-    }
+-    .buttontry{
+-        background:url(images/desktop/buttontry.svg);
+-        width: 136px;
+-        height: 65px;
+-        position: relative;
+-        left: 0px;
+-        top: 0px;
+         margin: 0px;
+-        padding: 0px;
+     }
+-    .texttry{
+-        /* Try For */
++    .header-subheading-text{
+ 
++        height: 120px;
++        width: 96%;
++        left: 2%;
++        top: 0px;
++        border-radius: nullpx;
++        position: relative;
+ 
+-        position: static;
+-        left: 13.16%;
+-        right: 13.16%;
+-        top: 22.22%;
+-        bottom: 22.22%;
++        /* Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule. */
+ 
+-        /* Button */
++        /* Sub Heading */
+ 
+         font-family: Graphik;
+         font-style: normal;
+-        font-weight: 500;
+-        font-size: 17px;
+-        line-height: 25px;
+-        /* identical to box height, or 147% */
++        font-weight: normal;
++        font-size: 20px;
++        line-height: 30px;
++        /* or 150% */
+ 
++        text-align: center;
+         letter-spacing: 0.2px;
+ 
+         /* light text */
+@@ -486,15 +685,6 @@
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+-        margin: 0px 10px;
+-    }
+-    .screens{
+-        background: url(images/screens_mob.svg);
+-        height: 453px;
+-        width: 549px;
+-        left: 0px;
+-        top: 782px;
+-        border-radius: 0px;
+-        position: absolute;
++        margin: 0px;
+     }
+ }
+\ No newline at end of file
+diff --git a/lab2/navbar.css b/lab2/navbar.css
+index d584181..9069043 100644
+--- a/lab2/navbar.css
++++ b/lab2/navbar.css
+@@ -1,12 +1,13 @@
+-@media only screen and (min-device-width: 550px){
++@media only screen and (min-device-width: 1444px){
+     .navbar{
+  
+         /* navbar */
+         position: absolute;
+         width: 1097px;
+         height: 119px;
+-        left: 0px;
++        left: calc(50% - 1097px/2);
+         top: 0px;
++        padding: 0px;
+ 
+ 
+         /* Inside Auto Layout */
+@@ -14,6 +15,7 @@
+         flex: none;
+         order: 0;
+         flex-grow: 0;
++        margin: 0px;
+     }
+     .button{
+ 
+@@ -29,10 +31,11 @@
+         position: absolute;
+         height: 52px;
+         width: 148px;
+-        left: 1151px;
++        left: 844px;
+         top: 33px;
+         border-radius: 0px;
+         padding: 20px, 36px, 20px, 36px;
++        margin: 0px;
+ 
+         /* light text */
+ 
+@@ -74,7 +77,7 @@
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+-        margin: 0px 10px;
++        margin: 0px;
+     }
+     .menu{
+ 
+@@ -82,7 +85,7 @@
+ 
+ 
+         /* Auto Layout */
+-
++        position: absolute;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+@@ -98,7 +101,7 @@
+         /* Contact */
+ 
+ 
+-        position: static;
++        position: absolute;
+         left: 12.05%;
+         right: 12.05%;
+         top: 22.73%;
+@@ -125,7 +128,7 @@
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+-        margin: 0px 10px;
++        margin: 0px;
+     }
+     .contact-link{
+ 
+@@ -141,8 +144,8 @@
+         position: absolute;
+         width: 83px;
+         height: 44px;
+-        left: 903.5px;
+-        top: 47.5px;
++        left: 310px;
++        top: 0px;
+ 
+ 
+         /* Inside Auto Layout */
+@@ -150,13 +153,13 @@
+         flex: none;
+         order: 3;
+         flex-grow: 0;
+-        margin: 0px 31px;
++        margin: 0px;
+     }
+     .about{
+         /* About */
+ 
+ 
+-        position: static;
++        position: absolute;
+         left: 14.71%;
+         right: 14.71%;
+         top: 22.73%;
+@@ -183,7 +186,7 @@
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+-        margin: 0px 10px;
++        margin: 0px;
+     }
+     .about-link{
+ 
+@@ -199,8 +202,8 @@
+         position: absolute;
+         width: 68px;
+         height: 44px;
+-        left: 804.5px;
+-        top: 47.5px;
++        left: 211px;
++        top: 0px;
+ 
+ 
+         /* Inside Auto Layout */
+@@ -208,14 +211,14 @@
+         flex: none;
+         order: 2;
+         flex-grow: 0;
+-        margin: 0px 31px;
++        margin: 0px;
+     }
+     .product{
+ 
+                 /* Product */
+ 
+ 
+-            position: static;
++            position: absolute;
+             left: 12.2%;
+             right: 12.2%;
+             top: 22.73%;
+@@ -242,7 +245,7 @@
+             flex: none;
+             order: 0;
+             flex-grow: 0;
+-            margin: 0px 10px;
++            margin: 0px;
+     }
+     .product-link{
+ 
+@@ -258,8 +261,8 @@
+         position: absolute;
+         width: 82px;
+         height: 44px;
+-        left: 701.5px;
+-        top: 47.5px;
++        left: 98px;
++        top: 0px;
+ 
+ 
+         /* Inside Auto Layout */
+@@ -267,13 +270,13 @@
+         flex: none;
+         order: 1;
+         flex-grow: 0;
+-        margin: 0px 31px;
++        margin: 0px;
+     }
+     .home{
+         /* Home */
+ 
+ 
+-        position: static;
++        position: absolute;
+         left: 14.93%;
+         right: 14.93%;
+         top: 22.73%;
+@@ -300,7 +303,7 @@
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+-        margin: 0px 10px;
++        margin: 0px;
+     }
+     .home-link{
+         /* link */
+@@ -315,8 +318,8 @@
+         position: absolute;
+         width: 67px;
+         height: 44px;
+-        left: 603.5px;
+-        top: 47.5px;
++        left: 0px;
++        top: 0px;
+ 
+ 
+         /* Inside Auto Layout */
+@@ -324,7 +327,7 @@
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+-        margin: 0px 31px;
++        margin: 0px;
+     }
+     .logo{
+         /* logo dark */
+@@ -339,19 +342,370 @@
+         position: absolute;
+         width: 186px;
+         height: 58px;
+-        left: 374px;
++        left: 40px;
+         top: 30px;
+ 
+     }
+ }
+-@media only screen and (max-device-width: 549px){
++@media only screen and (min-device-width: 1000px) and (max-device-width: 1443px){
++    .navbar{
++ 
++        /* navbar */
++        position: absolute;
++        width: 69.47%;
++        height: 119px;
++        left: 15.26%;
++        top: 0px;
++        padding: 0px;
++        display: flex;
++        flex-direction: row;
++
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .button{
++
++        /* button */
++
++
++        /* Auto Layout */
++
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++
++        position: absolute;
++        height: 52px;
++        width: 148px;
++        left: 82.95%;
++        top: 33px;
++        border-radius: 0px;
++        padding: 0px;
++        margin: 0px;
++
++        /* light text */
++
++        border: 1px solid #FFFFFF;
++        box-sizing: border-box;
++        /* shadow */
++
++        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
++
++    }
++    .login{
++         /* Login */
++
++
++        position: absolute;
++        left: 13.16%;
++        right: 13.16%;
++        top: 22.22%;
++        bottom: 22.22%;
++
++        /* Button */
++
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 17px;
++        line-height: 25px;
++        text-align: center;
++        /* identical to box height, or 147% */
++
++        letter-spacing: 0.2px;
++
++        /* light background */
++
++        color: #FFFFFF;
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .menu{
++
++        /* menu */
++
++
++        /* Auto Layout */
++        position: absolute;
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++
++        height: 44px;
++        width: 393px;
++        left: 25.21%;
++        top: calc(50% - 44px/2);
++    }
++    .contact{
++
++        /* Contact */
++
++
++        position: absolute;
++        left: 12.05%;
++        right: 12.05%;
++        top: 22.73%;
++        bottom: 22.73%;
++
++        /* Link */
++
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++
++        text-align: center;
++        letter-spacing: 0.2px;
++
++        /* light text */
++
++        color: #FFFFFF;
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .contact-link{
++
++        /* link */
++
++
++        /* Auto Layout */
++
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++
++        position: absolute;
++        width: 83px;
++        height: 44px;
++        left: 78.88%;
++        top: 0px;
++
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 3;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .about{
++        /* About */
++
++
++        position: absolute;
++        left: 14.71%;
++        right: 14.71%;
++        top: 22.73%;
++        bottom: 22.73%;
++
++        /* Link */
++
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++
++        text-align: center;
++        letter-spacing: 0.2px;
++
++        /* light text */
++
++        color: #FFFFFF;
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .about-link{
++
++        /* link */
++
++
++        /* Auto Layout */
++
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++
++        position: absolute;
++        width: 68px;
++        height: 44px;
++        left: 53.69%;
++        top: 0px;
++
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .product{
++
++                /* Product */
++
++
++            position: absolute;
++            left: 12.2%;
++            right: 12.2%;
++            top: 22.73%;
++            bottom: 22.73%;
++
++            /* Link */
++
++            font-family: Graphik;
++            font-style: normal;
++            font-weight: 500;
++            font-size: 16px;
++            line-height: 24px;
++            /* identical to box height, or 150% */
++
++            text-align: center;
++            letter-spacing: 0.2px;
++
++            /* light text */
++
++            color: #FFFFFF;
++
++            /* Inside Auto Layout */
++
++            flex: none;
++            order: 0;
++            flex-grow: 0;
++            margin: 0px;
++    }
++    .product-link{
++
++        /* link */
++
++
++        /* Auto Layout */
++
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++
++        position: absolute;
++        width: 82px;
++        height: 44px;
++        left: 24.94%;
++        top: 0px;
++
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .home{
++        /* Home */
++
++
++        position: absolute;
++        left: 14.93%;
++        right: 14.93%;
++        top: 22.73%;
++        bottom: 22.73%;
++
++        /* Link */
++
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 16px;
++        line-height: 24px;
++        /* identical to box height, or 150% */
++
++        text-align: center;
++        letter-spacing: 0.2px;
++
++        /* light text */
++
++        color: #FFFFFF;
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .home-link{
++        /* link */
++
++
++        /* Auto Layout */
++
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++
++        position: absolute;
++        width: 67px;
++        height: 44px;
++        left: 0px;
++        top: 0px;
++
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .logo{
++        /* logo dark */
++        background: url(images/desktop/Rectangle4.svg);
++
++        /* Auto Layout */
++
++        display: flex;
++        flex-direction: row;
++        align-items: flex-start;
++
++        position: absolute;
++        width: 186px;
++        height: 58px;
++        left: 3.65%;
++        top: 30px;
++
++    }
++}
++@media only screen and (max-device-width: 999px){
+     .navbar{
+ 
+         /* navbar */
+         position: absolute;
+         width: 549px;
+         height: 107px;
+-        left: 0px;
++        left: calc(50% - 549px/2);
+         top: 0px;
+ 
+ 
+@@ -432,7 +786,7 @@
+         bottom: 22.22%;
+         
+         /* Button */
+-        
++        text-align: center;
+         font-family: Graphik;
+         font-style: normal;
+         font-weight: 500;
+@@ -451,7 +805,7 @@
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+-        margin: 0px 10px;
++        margin: 0px;
+     }
+     .menumob{
+         background: url(images/bx_bx-menu-alt-right.svg);
+@@ -461,7 +815,7 @@
+         position: relative;
+         width: 66px;
+         height: 53px;
+-        right: 0px;
++        left: 16px;
+         top: 0px;
+ 
+ 
+@@ -489,5 +843,153 @@
+         left: 24px;
+         top: 15px;
+ 
++    }
++}
++@media only screen and (max-device-width: 548px){
++    .navbar{
++        
++        /* navbar */
++        position: absolute;
++        width: 100%;
++        height: 107px;
++        left: 0px;
++        top: 0px;
++
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++    }
++    .frame21{
++ 
++        /* Frame 21 */
++
++
++        /* Auto Layout */
++
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++
++        position: absolute;
++        width: 41.89%;
++        height: 53px;
++        right: 3%;
++        top: 28px;
++    }
++    .contact{
++        display: none;
++    }
++    .about{
++        display: none;
++    }
++    .product{
++        display: none;
++    }
++    .home{
++        display: none;
++    }
++    .button{
++        /* button */
++
++
++        /* Auto Layout */
++
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++
++        position: relative;
++        width: 64.35%;
++        height: 52px;
++        left: 0px;
++        top: 0.5px;
++
++        /* light background */
++
++        border: 1px solid #FFFFFF;
++        box-sizing: border-box;
++        /* shadow */
++
++        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++    }
++    .login{
++        /* Login */
++
++
++        position: absolute;
++        left: 13.16%;
++        right: 13.16%;
++        top: 22.22%;
++        bottom: 22.22%;
++        
++        /* Button */
++        text-align: center;
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: 500;
++        font-size: 17px;
++        line-height: 25px;
++        /* identical to box height, or 147% */
++        
++        letter-spacing: 0.2px;
++        
++        /* light text */
++        
++        color: #FFFFFF;
++        
++        /* Inside Auto Layout */
++        
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px;
++    }
++    .menumob{
++        
++        background: url(images/bx_bx-menu-alt-right.svg);
++        /* bx:bx-menu-alt-right */
++
++        position: relative;
++        width: 28.7%;
++        height: 53px;
++        left: 6.96%;
++        top: 0px;
++
++
++        /* Inside Auto Layout */
++
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++    }
++    .logo{
++        /* logo dark */
++        background: url(images/logodark.svg);
++        background-position: 50% 100%;
++
++
++        /* Auto Layout */
++
++        display: flex;
++        flex-direction: row;
++        align-items: flex-start;
++        padding: 0px;
++
++        position: absolute;
++        width: 186px;
++        height: 78px;
++        left: 4.37%;
++        top: 15px;
++
+     }
+ }
+\ No newline at end of file
+diff --git a/lab2/partners.css b/lab2/partners.css
+index 023210c..61ec862 100644
+--- a/lab2/partners.css
++++ b/lab2/partners.css
+@@ -1,4 +1,4 @@
+-@media only screen and (min-device-width: 550px){
++@media only screen and (min-device-width: 1444px){
+     .ptextcontent{
+  
+         /* Text Content */
+@@ -321,7 +321,330 @@
+         margin: 50px 0px;
+     }
+ }
+-@media only screen and (max-device-width: 549px){
++@media only screen and (min-device-width: 1000px) and (max-device-width: 1443px){
++    .ptextcontent{
++ 
++        /* Text Content */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++        padding: 0px;
++    
++        position: static;
++        width: 591px;
++        height: 162px;
++        left: 494px;
++        top: 50px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 50px 0px;
++    }
++    .psecondheadline{
++
++        /* Second Headline */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: static;
++        width: 223px;
++        height: 82px;
++        left: 184px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .partnerstext{
++  
++        height: 62px;
++        width: 203px;
++        border-radius: nullpx;
++    
++        /* Partners */
++    
++    
++        position: static;
++        left: 4.48%;
++        right: 4.48%;
++        top: 12.2%;
++        bottom: 12.2%;
++    
++        /* Second Headline */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: normal;
++        font-size: 52px;
++        line-height: 62px;
++        text-align: center;
++        /* identical to box height, or 119% */
++    
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 10px;
++    }
++    .psubheading{
++  
++        /* Sub Heading */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++    
++        position: static;
++        width: 591px;
++        height: 80px;
++        left: 0px;
++        top: 82px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px 0px;
++    }
++    .pwefocus{
++        
++        height: 60px;
++        width: 571px;
++        border-radius: nullpx;
++    
++        /* We focus on ergonomics and meeting you where you work. It's only a keystroke away. */
++    
++    
++        position: static;
++        left: 1.69%;
++        right: 1.69%;
++        top: 12.5%;
++        bottom: 12.5%;
++    
++        /* Sub Heading */
++    
++        font-family: Graphik;
++        font-style: normal;
++        font-weight: normal;
++        font-size: 20px;
++        line-height: 30px;
++        /* or 150% */
++    
++        text-align: center;
++        letter-spacing: 0.2px;
++    
++        /* light text */
++    
++        color: #FFFFFF;
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 10px;
++    }
++    .brands{
++        
++        /* Brands */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 0px;
++    
++        position: static;
++        width: 831.97px;
++        height: 70.55px;
++        left: 373.52px;
++        top: 262px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++    }
++    .logoibm{
++        background: url(images/ibm.svg);
++        /* logos:ibm */
++    
++    
++        position: static;
++        width: 149.85px;
++        height: 60px;
++        left: 682.11px;
++        top: 5.27px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 5;
++        flex-grow: 0;
++    }
++    .logoairbnb{
++        background: url(images/airbnb.svg);
++        /* logos:airbnb */
++    
++    
++        position: static;
++        width: 60px;
++        height: 64.69px;
++        left: 548.11px;
++        top: 2.93px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 4;
++        flex-grow: 0;
++        margin: 0px 74px 0px 0px;
++    }
++    .logobasecamp{
++        background: url(images/logos_basecamp.svg);
++        /* logos:basecamp */
++    
++    
++        position: static;
++        width: 72.11px;
++        height: 60px;
++        left: 402px;
++        top: 5.27px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 3;
++        flex-grow: 0;
++        margin: 0px 74px 0px 0px;
++    }
++    .logoandroid{
++        background: url(images/logos_android-icon.svg);
++        /* logos:android-icon */
++    
++    
++        position: static;
++        width: 60px;
++        height: 70.55px;
++        left: 268px;
++        top: 0px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++        margin: 0px 74px 0px 0px;
++    }
++    .logoapiary{
++        background: url(images/logos_apiary.svg);
++        /* logos:apiary */
++    
++    
++        position: static;
++        width: 60px;
++        height: 60.7px;
++        left: 134px;
++        top: 4.92px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 1;
++        flex-grow: 0;
++        margin: 0px 74px 0px 0px;
++    }
++    .logoapple{
++        background: url(images/logos_apple-app-store.svg);
++        /* logos:apple-app-store */
++    
++    
++        position: static;
++        width: 60px;
++        height: 60px;
++        left: 0px;
++        top: 5.27px;
++    
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 0;
++        flex-grow: 0;
++        margin: 0px 74px 0px 0px;
++    }
++    .pbutton{
++        background: url(images/AllPartners.png);
++        /* button */
++    
++    
++        /* Auto Layout */
++    
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        padding: 10px 30px;
++    
++        position: static;
++        width: 136px;
++        height: 52px;
++        left: 721.5px;
++        top: 382.55px;
++    
++        /* light text */
++    
++        border: 1px solid #FFFFFF;
++        box-sizing: border-box;
++        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
++    
++        /* Inside Auto Layout */
++    
++        flex: none;
++        order: 2;
++        flex-grow: 0;
++        margin: 50px 0px;
++    }
++}
++@media only screen and (max-device-width: 999px){
+     .ptextcontent{
+ 
+         /* Text Content */
+@@ -337,7 +660,7 @@
+         position: absolute;
+         width: 349px;
+         height: 192px;
+-        left: 100px;
++        left: calc(50% - 349px/2);
+         top: 50px;
+ 
+     
+@@ -350,7 +673,7 @@
+         margin: 0px;
+     }
+     .psecondheadline{
+-       
++        
+         /* Second Headline */
+     
+     
+@@ -412,7 +735,7 @@
+         margin: 0px;
+     }
+     .psubheading{
+-
++        
+         /* Sub Heading */
+     
+     
+@@ -488,7 +811,7 @@
+         position: absolute;
+         width: 286px;
+         height: 171.55px;
+-        left: 131.5px;
++        left: calc(50% - 286px/2);
+         top: 292px;
+     
+     
+@@ -628,7 +951,7 @@
+         position: absolute;
+         width: 136px;
+         height: 52px;
+-        left: 206.5px;
++        left: calc(50% - 136px/2);
+         top: 513.55px;
+     
+         /* light text */
+diff --git a/lab2/style.css b/lab2/style.css
+index 1c15634..90d9ff8 100644
+--- a/lab2/style.css
++++ b/lab2/style.css
+@@ -1,7 +1,14 @@
+-@media only screen and (min-device-width: 550px){
++body{
++    width:100%;
++    margin: 0px;
++    align-items: center;
++}
++@media only screen and (min-device-width: 1000px){
+     div{
+     }
+     .main{
++ 
++
+ 
+         /* Desktop - 1 */
+ 
+@@ -10,18 +17,20 @@
+ 
+         display: flex;
+         flex-direction: column;
+-        align-items: center;
++        align-items: flex-start;
+         padding: 0px;
+ 
+-        position: absolute;
++        position: relative;
+         width: 100%;
+         height: 7769.07px;
+ 
+         /* dark background */
+ 
+         background: #181818;
++        margin: 0px;
+     }
+     .header{
++        
+ 
+         /* Desktop HEADER 05 */
+ 
+@@ -46,11 +55,12 @@
+ 
+         flex: none;
+         order: 0;
+-        /*align-self: stretch; */
++        align-self: stretch;
+         flex-grow: 0;
++        margin: 0px;
+     }
+    .features{
+-        
++
+         /* dark FEATURE 5 */
+ 
+ 
+@@ -75,8 +85,9 @@
+ 
+         flex: none;
+         order: 1;
+-        /* align-self: stretch; */
++        align-self: stretch;
+         flex-grow: 0;
++        margin: 0px;
+    }
+    .contents{
+        /* dark CONTENT 7 */
+@@ -104,6 +115,7 @@
+         order: 2;
+         align-self: stretch;
+         flex-grow: 0;
++        margin: 0px;
+    }
+    .gallery{
+        /* dark CONTENT 8 */
+@@ -130,6 +142,7 @@
+         order: 3;
+         align-self: stretch;
+         flex-grow: 0;
++        margin: 0px;
+    }
+    .partners{
+ 
+@@ -158,6 +171,7 @@
+         order: 4;
+         align-self: stretch;
+         flex-grow: 0;
++        margin: 0px;
+    }
+    .testimonials{
+  
+@@ -186,6 +200,7 @@
+         order: 5;
+         align-self: stretch;
+         flex-grow: 0;
++        margin: 0px;
+    }
+    .cta{
+   
+@@ -214,6 +229,7 @@
+         order: 6;
+         align-self: stretch;
+         flex-grow: 0;
++        margin: 0px;
+    }
+    .footer{
+    
+@@ -242,9 +258,10 @@
+         order: 7;
+         align-self: stretch;
+         flex-grow: 0;
++        margin: 0px;
+    }
+ }
+-@media only screen and (max-device-width: 549px){
++@media only screen and (max-device-width: 999px){
+     div{
+     }
+     .main{
+@@ -262,7 +279,7 @@
+         padding: 0px;
+ 
+         position: relative;
+-        width: 549px;
++        width: 100%;
+         height: 11134.49px;
+ 
+         /* dark background */
+@@ -283,7 +300,7 @@
+         padding: 0px;
+ 
+         position: absolute;
+-        width: 549px;
++        width: 100%;
+         height: 1235px;
+         left: 0px;
+         top: 0px;
+@@ -312,7 +329,7 @@
+         align-items: flex-start;
+ 
+         position: absolute;
+-        width: 549px;
++        width: 100%;
+         height: 1414px;
+         left: 0px;
+         top: 1336px;
+@@ -339,7 +356,7 @@
+       align-items: center;
+ 
+       position: absolute;
+-      width: 549px;
++      width: 100%;
+       height: 1519.96px;
+       left: 0px;
+       top: 2851px;
+@@ -354,8 +371,8 @@
+       order: 2;
+       align-self: stretch;
+       flex-grow: 0;
+- }
+- .gallery{
++    }
++    .gallery{
+      /* dark CONTENT 8 */
+  
+ 
+@@ -367,7 +384,7 @@
+       padding: 0px;
+       
+       position: absolute;
+-      width: 549px;
++      width: 100%;
+       height: 1671px;
+       left: 0px;
+       top: 4471.96px;
+@@ -381,8 +398,8 @@
+       order: 3;
+       align-self: stretch;
+       flex-grow: 0;
+- }
+- .partners{
++    }
++    .partners{
+   
+      /* light PARTNER 1 */
+ 
+@@ -394,7 +411,7 @@
+       align-items: center;
+ 
+       position: absolute;
+-      width: 549px;
++      width: 100%;
+       height: 615.55px;
+       left: 0px;
+       top: 6243.96px;
+@@ -409,8 +426,8 @@
+       order: 4;
+       align-self: stretch;
+       flex-grow: 0;
+- }
+- .testimonials{
++    }
++    .testimonials{
+   
+      /* light TESTIMONIAL 4 */
+ 
+@@ -423,7 +440,7 @@
+       padding: 0px;
+ 
+       position: absolute;
+-      width: 549px;
++      width: 100%;
+       height: 1805px;
+       left: 0px;
+       top: 6960.5px;
+@@ -438,8 +455,8 @@
+       order: 5;
+       align-self: stretch;
+       flex-grow: 0;
+- }
+- .cta{
++    }
++    .cta{
+    
+      /* dark CTA 8 */
+ 
+@@ -451,7 +468,7 @@
+       align-items: center;
+ 
+       position: absolute;
+-      width: 549px;
++      width: 100%;
+       height: 868px;
+       left: 0px;
+       top: 8866.5px;
+@@ -466,8 +483,8 @@
+       order: 6;
+       align-self: stretch;
+       flex-grow: 0;
+- }
+- .footer{
++    }
++    .footer{
+    
+      /* light FOOTER 4 */
+ 
+@@ -480,7 +497,7 @@
+       padding: 0px;
+ 
+       position: absolute;
+-      width: 549px;
++      width: 100%;
+       height: 1298.99px;
+       left: 0px;
+       top: 9835.5px;
+@@ -496,5 +513,5 @@
+       align-self: stretch;
+       flex-grow: 0;
+       margin: 0px;
+- }
++    }
+ }
+\ No newline at end of file
+diff --git a/lab2/testimonials.css b/lab2/testimonials.css
+index 2e0b253..5c29898 100644
+--- a/lab2/testimonials.css
++++ b/lab2/testimonials.css
+@@ -1,4 +1,4 @@
+-@media only screen and (min-device-width: 550px){
++@media only screen and (min-device-width: 1000px){
+     .tsecondheadline{
+ 
+         /* Second Headline */
+@@ -1259,7 +1259,7 @@
+         margin: 0px 0px;
+     }
+ }
+-@media only screen and (max-device-width: 549px){
++@media only screen and (max-device-width: 999px){
+     .tsecondheadline{
+ 
+         /* Second Headline */
+@@ -1274,7 +1274,7 @@
+         position: absolute;
+         width: 324px;
+         height: 82px;
+-        left: 112.5px;
++        left: calc(50% - 324px/2);
+         top: 50px;
+     
+     
+@@ -1339,7 +1339,7 @@
+         position: absolute;
+         width: 352px;
+         height: 1573px;
+-        left: 98.5px;
++        left: calc(50% - 352px/2);
+         top: 182px;
+     
+     
