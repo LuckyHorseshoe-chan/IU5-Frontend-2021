@@ -47,4 +47,4 @@ function getAnagramms(arr) {
 }
 
 module.exports = getAnagramms;
-console.log(getAnagramms(['мир', '222']))
+//console.log(getAnagramms(['мир', '222']))

@@ -32,5 +32,5 @@ function rle(str) {
 }
 
 module.exports = rle;
-console.log(rle('AAAB'));
-console.log(rle('BCCADDEEEBB'));
+//console.log(rle('AAAB'));
+//console.log(rle('BCCADDEEEBB'));
