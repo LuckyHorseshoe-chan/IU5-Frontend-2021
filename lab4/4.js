@@ -17,7 +17,17 @@
 */
 
 function get1DArray(arr) {
-    //code here
+    let result = [];
+    for(let i = 0; i < arr.length; i++){
+        if(!Array.isArray(arr[i])){
+            result.push(arr[i])
+        } else{
+            arr = arr.flat();
+            i--;
+        }
+    }
+    return result;
 }
 
 module.exports = get1DArray;
+//console.log(get1DArray([[1, 2]]));
