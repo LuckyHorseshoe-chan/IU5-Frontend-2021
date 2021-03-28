@@ -22,7 +22,25 @@
  */
 
 function makeRoute(arr) {
-    //code here
+    let result = [
+        {from: arr[0]["from"], to: arr[0]["to"]}
+    ]
+    for(let i = 0; i < arr.length; i++){
+        for(let j = i + 1; j < arr.length; j++){
+            console.log(typeof result)
+            if(arr[j]["from"] === arr[i]["to"]){
+                result.push(arr[j]);
+            }
+            else if(arr[i]["from"] === arr[j]["to"]){
+                let cache = result;
+                result = [
+                    {from: arr[j]["from"], to: arr[j]["to"]}
+                ];
+                result.push(...cache);
+            }
+        }
+    }
+    return result;
 }
 
 module.exports = makeRoute;

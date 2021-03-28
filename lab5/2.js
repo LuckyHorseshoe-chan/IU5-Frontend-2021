@@ -12,8 +12,20 @@
  * console.log(curry(add)(1)(2, 3)); //6
  * console.log(curry(add)(1, 2, 3)); //6
  */
+function curryStack(args, f){
+    if(args.length >= f.length){
+        return f(...args);
+    } 
+    return function() {
+        args.push(...arguments);
+        return curryStack(args, f);
+    };
+}
 function curry(f) {
-    //code here
+    return curryStack([], f);
 }
 
 module.exports = curry;
+function add(a, b, c) {
+      return a + b + c;
+}
