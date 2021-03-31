@@ -26,6 +26,4 @@ function curry(f) {
 }
 
 module.exports = curry;
-function add(a, b, c) {
-      return a + b + c;
-}
+

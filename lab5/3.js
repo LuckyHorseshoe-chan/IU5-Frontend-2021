@@ -7,7 +7,8 @@
  */
 
 function customBind(f, context) {
-    return f.bind(context);
+    return function(...args) { return f.apply(context, args)};
 }
 
 module.exports = customBind;
+//console.log(customBind(function() { return this.a + this.b}, {a: 1, b: 2})())

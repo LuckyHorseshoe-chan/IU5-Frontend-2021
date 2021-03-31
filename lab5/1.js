@@ -6,8 +6,6 @@
  * [1,2,3].myMap((x) => x*2) -> [2,4,6]
  * Нужно назвать myMap !!!!!
  */
- Object.defineProperty(Array.prototype, 'myMap', {
-    value: function(callback) {
+ Array.prototype.myMap = function myMap(callback) {
     return this.reduce(function (arr, element){ return arr.concat(callback(element));}, []);
-    }
-});
+};
