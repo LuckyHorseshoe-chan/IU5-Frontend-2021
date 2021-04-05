@@ -5,11 +5,163 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
 
 </body>
+
+<script>
+    window.onload = function createSquare(){
+        //1
+        let ElementSquare = document.createElement('div');
+        ElementSquare.className = 'square';
+        ElementSquare.onclick = () => {
+            ElementSquare.style.backgroundColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+        };
+        document.body.appendChild(ElementSquare);
+        //2
+        let ElementTimer = document.createElement('h1');
+        ElementTimer.textContent = '0';
+        document.body.appendChild(ElementTimer);
+        let IntTimer = 0;
+        let timerId;
+        ElementTimer.onmouseover = () => {
+            timerId = setInterval(() =>{
+                IntTimer++;
+                ElementTimer.textContent = IntTimer.toString();
+                }, 1000);
+        }
+        ElementTimer.onmouseleave = () => {
+            clearInterval(timerId);
+        }
+        //3
+        let ListButton = document.createElement('button');
+        ListButton.textContent = 'Who is the best pony?';
+        ListButton.className = 'button-list';
+        let MLPList = document.createElement('div');
+        MLPList.className = 'mlp-list-hidden';
+        let ListEl;
+        let MLParr = ['Applejack', 'Pinkie Pie', 'Rarity', 'Twilight without wings', 'Fluttershy', 'Rainbow Dash', 
+        'Princess Luna', 'Princess Celestia', 'Princess Cadance', 'Shining Armor', 'Derpy Hooves', 'Apple Bloom'];
+        for(let i=0; i<MLParr.length; i++){
+            ListEl = document.createElement('div');
+            ListEl.className = 'mlp-list-item';
+            ListEl.textContent = MLParr[i];
+            MLPList.appendChild(ListEl);
+            }
+        ListButton.onclick = () => {
+            if(MLPList.className === 'mlp-list-hidden'){
+                MLPList.className = 'mlp-list-visible';
+            } else if(MLPList.className === 'mlp-list-visible'){
+                MLPList.className = 'mlp-list-hidden';
+            }
+        }
+        document.body.appendChild(ListButton);
+        document.body.appendChild(MLPList);
+        //4
+        let ElementBox = document.createElement('div');
+        ElementBox.className = 'box';
+        let ElementBall = document.createElement('div');
+        ElementBall.className = 'ball';
+        document.body.appendChild(ElementBox);
+        ElementBox.appendChild(ElementBall);
+        let ClickDetected = false;
+        ElementBall.onclick = () => {
+            ClickDetected = true;
+        }
+        document.onkeydown = (event) => {
+        if (event.code === 'Escape') {ClickDetected = false};
+        };
+        ElementBox.onmousemove = (event) => {
+            if(ClickDetected){
+                if(event.pageX < ElementBox.offsetLeft + ElementBox.offsetWidth - ElementBall.offsetWidth && 
+                event.pageY < ElementBox.offsetTop + ElementBox.offsetHeight - ElementBall.offsetHeight){
+                    let x = event.pageX - ElementBox.offsetLeft;
+                    let y = event.pageY - ElementBox.offsetTop;
+                    ElementBall.style.left = x + 'px';
+                    ElementBall.style.top = y + 'px';
+                }
+                
+            }
+            
+        }
+        //5
+        let SeriesList = document.createElement('button');
+        SeriesList.className = 'button-list';
+        SeriesList.textContent = 'The list of the episodes';
+        document.body.appendChild(SeriesList);
+        SeriesList.onclick = async () =>{
+            let response = await fetch('https://www.breakingbadapi.com/api/episodes');
+            let episodes = await response.json();
+            const array = Object.keys(episodes).map(key => episodes[key]);
+            let SeriesName = document.createElement('h1');
+            SeriesName.textContent = array[0].series;
+            document.body.appendChild(SeriesName);
+            let NumberOfSeasons = Number(array[array.length - 1].season);
+            let CurrentSeason = 0;
+            let ElementTable;
+            let Row;
+            let Column;
+            let Season;
+            let Count = 0;
+            let str;
+            for(let i=1; i<=NumberOfSeasons; i++){
+                if(i != CurrentSeason){
+                    if(i != 1){
+                       document.body.appendChild(ElementTable);
+                    }
+                    Season = document.createElement('h2');
+                    Season.textContent = 'Season ' + i.toString();
+                    document.body.appendChild(Season);
+                    ElementTable = document.createElement('table');
+                    Row = document.createElement('tr');
+                    Column = document.createElement('td');
+                    Column.textContent = 'Episode';
+                    Row.appendChild(Column);
+                    Column = document.createElement('td');
+                    Column.textContent = 'Title';
+                    Row.appendChild(Column)
+                    Column = document.createElement('td');
+                    Column.textContent = 'Air Date';
+                    Row.appendChild(Column);
+                    Column = document.createElement('td');
+                    Column.textContent = 'Characters';
+                    Row.appendChild(Column);
+                    ElementTable.appendChild(Row);
+                }
+                CurrentSeason = i;
+                while(Number(array[Count].season) === CurrentSeason){
+                    Row = document.createElement('tr');
+                    Column = document.createElement('td');
+                    //alert(array[Count].episode);
+                    Column.textContent = array[Count].episode;
+                    Row.appendChild(Column);
+                    Column = document.createElement('td');
+                    Column.textContent = array[Count].title;
+                    Row.appendChild(Column)
+                    Column = document.createElement('td');
+                    Column.textContent = array[Count].air_date;
+                    Row.appendChild(Column);
+                    Column = document.createElement('td');
+                    Column.textContent = array[Count].characters;
+                    // Column.textContent = '';
+                    // for(let item of array[Count].characters){
+                    //     //alert(typeof item)
+                    //     Column.textContent += item;
+                    //     Column.textContent += ', ';
+                    // }
+                    //Column.textContent = array[Count].characters;
+                    Row.appendChild(Column);
+                    ElementTable.appendChild(Row);
+                    Count++;
+                }
+            }
+            document.body.appendChild(ElementTable);
+        }
+    }
+</script>
 
 </html>
