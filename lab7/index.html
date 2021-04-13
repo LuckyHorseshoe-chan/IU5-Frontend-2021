@@ -5,11 +5,150 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
     <title>Lab7</title>
 </head>
 
 <body>
-
+    <div class="navbar">
+        <input id="search-block" placeholder="Введите город">
+        <button id="search-button"></button>
+    </div>
+    <div class="content">
+        <div id="weather_block">
+            <h1 id="city-name"></h1>
+            <div id="current-weather">
+                <h1 id="temperature"></h1>
+                <h1 id="weather-text"></h1>
+            </div>
+            <div id="additional-information">
+                <img class="icon" src="icons/wind.svg"/>
+                <h1 class="addinf-text" id="wind">5 м/с</h1>
+                <img class="icon" src="icons/humadity-icon.svg"/>
+                <h1 class="addinf-text" id="humidity">29%</h1>
+                <img class="icon" src="icons/gauge.svg"/>
+                <h1 class="addinf-text" id="pressure">771 мм рт ст</h1>
+            </div>
+            <div id="forecast-block">
+                <div class="ftextblock">
+                    <h3 class="date"></h3>
+                    <h2 class="forecast-temp"></h2>
+                    <h3 class="forecast-description"></h3>
+                </div>
+                <div class="ftextblock">
+                    <h3 class="date"></h3>
+                    <h2 class="forecast-temp"></h2>
+                    <h3 class="forecast-description"></h3>
+                </div>
+                <div class="ftextblock">
+                    <h3 class="date"></h3>
+                    <h2 class="forecast-temp"></h2>
+                    <h3 class="forecast-description"></h3>
+                </div>
+            </div>
+        </div>
+        <div id="err" style="display: none;">
+            <p>Ooops!</p>
+            <p>Weather pegasuses messed up. Try to type another place</p>
+        </div>
+    </div>
+    
 </body>
+<script>
+    WeatherBackgroundArray = ['img/sunny.jpg', 'img/partially_cloudy.jpg', 'img/cloudy.jpeg', 'img/partially_cloudy.jpg']
+    for(let i=4; i<8;i++){
+        WeatherBackgroundArray.push('');
+    }
+    WeatherBackgroundArray.push('img/rain.jpg', 'img/rain.jpg', 'img/thunder.jpg', '', 'img/snow.jpg')
+    //alert(WeatherBackgroundArray[10])
+    for(let i=13; i<49;i++){
+        WeatherBackgroundArray.push('');
+    }
+    WeatherBackgroundArray.push('img/mist.jpg');
+    let WeatherParams = {
+        q: "Москва",
+        units: "metric",
+        lang: "ru",
+        appid: "c0abc50c4085a6ed7370ed4cf7c71e9a"
+    };
+    let ForecastParams = WeatherParams;
+    ForecastParams.cnt = 3;
+    let WeatherUrl = new URL("https://api.openweathermap.org/data/2.5/weather");
+    let ForecastUrl = new URL("https://api.openweathermap.org/data/2.5/forecast");
+    function AddSearchParams(url, params) {
+        Object.entries(params).forEach(([key, val]) => {
+            url.searchParams.append(key, val);
+        });
+    }
+    async function GetData(url) {
+        let response = await fetch(url);
+        return await response.json();
+    }
+    function WeatherBlock(data){
+        ChangeWeatherBackground(data.weather[0].icon);
+        document.getElementById('city-name').textContent = data.name;
+        document.getElementById('temperature').textContent = data.main.temp > 0 ? '+' + Math.round(data.main.temp) : Math.round(data.main.temp);
+        document.getElementById('weather-text').textContent = data.weather[0].description;
+        document.getElementById('wind').textContent = data.wind.speed + ' м/с';
+        document.getElementById('humidity').textContent = data.main.humidity + '%';
+        document.getElementById('pressure').textContent = Math.round(data.main.pressure / 1.33333) + ' мм рт. ст.';
+    }
+    function ForecastBlock(data) {
+        for (let i = 0; i < data.list.length; i++) {
+            //alert(data.list[i].dt_txt);
+        document.getElementsByClassName("date")[i].textContent = data.list[i].dt_txt;
+        document.getElementsByClassName("forecast-temp")[i].textContent = data.list[i].main.temp > 0 ? '+' + Math.round(data.list[i].main.temp) : Math.round(data.list[i].main.temp);;
+        document.getElementsByClassName("forecast-description")[i].textContent = data.list[i].weather[0].description;
+        }
+    }
+    function LoadData(WeatherUrl, ForecastUrl){
+        GetData(WeatherUrl)
+        .then((data) => {WeatherBlock(data);})
+        .catch((err) => {
+            ShowErr(err);
+            return;
+        });
+        GetData(ForecastUrl)
+        .then((data) => {ForecastBlock(data);})
+        .catch((err) => {
+            ShowErr(err);
+            return;
+        });
+    }
+    let SearchButton = document.getElementById('search-button');
+    function Search(){
+        err.style.display = 'none';
+        weather_block.style.display = 'flex';
+        let city = document.getElementById('search-block').value;
+        WeatherUrl.searchParams.delete("q");
+        WeatherUrl.searchParams.append("q", city);
+        ForecastUrl.searchParams.delete("q");
+        ForecastUrl.searchParams.append("q", city);
+        LoadData(WeatherUrl, ForecastUrl);
+    }
+    document.getElementById('search-block').onkeydown = (event) => {
+        if (event.code === 'Enter') { Search() };
+        };
+    SearchButton.onclick = () => {
+        Search();
+    }
+    function ShowErr() {
+        err.style.display = 'block';
+        weather_block.style.display = 'none';
+    }
+    function ChangeWeatherBackground(str){
+        
+        let image_url = WeatherBackgroundArray[Number(str.slice(0, 2)) - 1];
+        //alert(image_url)
+        weather_block.style.backgroundImage = `url(${image_url})`;
+        //weather_block.style.background = "url('icons/wind.svg')";
+        
+    }
+    window.onload = () =>{
+        AddSearchParams(WeatherUrl, WeatherParams);
+        AddSearchParams(ForecastUrl, ForecastParams);
+        LoadData(WeatherUrl, ForecastUrl);
+    }
+</script>
 
 </html>

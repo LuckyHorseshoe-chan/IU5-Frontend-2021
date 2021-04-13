@@ -1,0 +1,276 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    position: absolute;
+    margin: 0px;
+    align-items: center;
+}
+@media screen and (min-width: 1000px){
+    .navbar{
+        width: 100%;
+        height: 50px;
+        background: black;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .content{
+        width: 100%;
+        height: 800px;
+        background: skyblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    #weather_block{
+        width: 700px;
+        height: 400px;
+        top: 150px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: no-repeat;
+    }
+    #city-name{
+        font-family: Verdana;
+        font-size: 50px;
+        color:white;
+        font-weight: 900;
+        margin: 20px;
+    }
+    #current-weather{
+        height: 100px;
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #weather-text{
+        font-family: Verdana;
+        font-size: 40px;
+        color:white;
+        font-weight: 900;
+        margin: 10px;
+    }
+    #temperature{
+        font-family: Verdana;
+        font-size: 70px;
+        color:white;
+        font-weight: 900;
+        margin: 0px 20px;
+    }
+    #forecast-block{
+        height: 150px;
+        width: 315px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        bottom: 0px;
+    }
+    #additional-information{
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .icon{
+        height: 20px;
+        width: 20px;
+        margin: 5px;
+    }
+    .addinf-text{
+        font-family: Verdana;
+        font-size: 15px;
+        color:white;
+        font-weight: 900;
+        margin: 5px;
+    }
+    #search-block{
+        width: 150px;
+        height: 20px;
+        left: 10px;
+        position: relative;
+        background: white;
+        border-radius: 3px;
+        border: 0px;
+    }
+    #search-button{
+        width: 22px;
+        height: 20px;
+        left: 20px;
+        position: relative;
+        background: grey url('icons/loupe.svg') no-repeat;
+        border-radius: 3px;
+    }
+    .ftextblock{
+        width: 105px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+    .date{
+        font-family: Verdana;
+        font-size: 13px;
+        color:white;
+        font-weight: 500;
+        margin: 20px 0px 0px 0px;
+    }
+    .forecast-temp{
+        font-family: Verdana;
+        font-size: 25px;
+        color:white;
+        font-weight: 600;
+        margin: 5px;
+    }
+    .forecast-description{
+        font-family: Verdana;
+        font-size: 13px;
+        color:white;
+        font-weight: 500;
+        margin: 5px;
+    }
+    #err{
+        font-family: Verdana;
+        font-size: 20px;
+        color:white;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 999px){
+    .navbar{
+        width: 100%;
+        height: 50px;
+        background: black;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .content{
+        width: 100%;
+        height: 800px;
+        background: skyblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    #weather_block{
+        width: 400px;
+        height: 400px;
+        top: 150px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #city-name{
+        font-family: Verdana;
+        font-size: 25px;
+        color:white;
+        font-weight: 900;
+        margin: 20px;
+    }
+    #current-weather{
+        height: 100px;
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #weather-text{
+        font-family: Verdana;
+        font-size: 20px;
+        color:white;
+        font-weight: 900;
+        margin: 10px;
+    }
+    #temperature{
+        font-family: Verdana;
+        font-size: 35px;
+        color:white;
+        font-weight: 900;
+        margin: 0px 20px;
+    }
+    #forecast-block{
+        height: 150px;
+        width: 315px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        bottom: 0px;
+    }
+    #additional-information{
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .icon{
+        height: 20px;
+        width: 20px;
+        margin: 5px;
+    }
+    .addinf-text{
+        font-family: Verdana;
+        font-size: 7.5px;
+        color:white;
+        font-weight: 900;
+        margin: 5px;
+    }
+    #search-block{
+        width: 150px;
+        height: 20px;
+        left: 10px;
+        position: relative;
+        background: white;
+        border-radius: 3px;
+        border: 0px;
+    }
+    #search-button{
+        width: 22px;
+        height: 20px;
+        left: 20px;
+        position: relative;
+        background: grey url('icons/loupe.svg') no-repeat;
+        border-radius: 3px;
+    }
+    .ftextblock{
+        width: 105px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+    .date{
+        font-family: Verdana;
+        font-size: 10px;
+        color:white;
+        font-weight: 500;
+        margin: 20px 0px 0px 0px;
+    }
+    .forecast-temp{
+        font-family: Verdana;
+        font-size: 25px;
+        color:white;
+        font-weight: 600;
+        margin: 5px;
+    }
+    .forecast-description{
+        font-family: Verdana;
+        font-size: 10px;
+        color:white;
+        font-weight: 500;
+        margin: 5px;
+    }
+    #err{
+        font-family: Verdana;
+        font-size: 20px;
+        color:white;
+    }
+}
