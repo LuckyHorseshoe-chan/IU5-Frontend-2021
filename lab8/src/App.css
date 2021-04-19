@@ -1,10 +1,43 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+button{
+  width: 100px
+}
+.addButton{
+  font-size: medium;
+  font-family: times new roman;
+  margin: 10px 0px;
+}
+.delButton{
+  width: 15px;
+  height: 15px;
+  border: 0px;
+  position: relative;
+  left: 5px;
+  background: url("del.png") 50% 100% no-repeat;
+}
+input[type=checkbox]{
+  width: 15px;
+  height: 15px;
+}
+input[type=text]{
+  height: 15px;
+  border: 0px;
+}
+label{
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
