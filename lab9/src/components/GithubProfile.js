@@ -14,14 +14,14 @@ import {ReactComponent as Followers} from './following-svgrepo-com.svg'
     repos}){
       const [ShowState, setShowState] = React.useState({
         repositories: repos,
-        itemsToShow: 8,
+        itemsToShow: Math.min(8, repos.length),
         expanded: false
       });
       function showMore() {
         ShowState.itemsToShow === 8 ? (
           setShowState({ repositories: ShowState.repositories, itemsToShow: ShowState.repositories.length, expanded: true })
         ) : (
-          setShowState({ repositories: ShowState.repositories, itemsToShow: 8, expanded: false })
+          setShowState({ repositories: ShowState.repositories, itemsToShow: Math.min(8, ShowState.repositories.length), expanded: false })
         )
       }
       //avatar.style.backgroundImage = avatar_url;
@@ -47,16 +47,27 @@ import {ReactComponent as Followers} from './following-svgrepo-com.svg'
           
         </div>
         <div className="repo-block">
-          <p>Repositories: {public_repos}</p>
+          <p>Repositories: {public_repos}</p> 
           <div className="repo-list">
             {ShowState.repositories.slice(0, ShowState.itemsToShow).map((repa) => <div className="repository">{repa.name}</div>)}
-            <button className="show-more" onClick={showMore}>
-            {ShowState.expanded ? (
-              <span>Show less</span>
-            ) : (
-              <span>Show more</span>
-            )}
+            {ShowState.itemsToShow % 2 === 0 ?
+              <button className="show-more" onClick={showMore}>
+                {ShowState.expanded ? (
+                  <span>Show less</span>
+                ) : (
+                  <span>Show more</span>
+                )}
+              </button>
+            : 
+            <button className="show-more1" onClick={showMore}>
+              {ShowState.expanded ? (
+                <span>Show less</span>
+              ) : (
+                <span>Show more</span>
+              )}
             </button>
+            }
+            
           </div>
         </div>
         </div>

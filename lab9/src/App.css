@@ -107,6 +107,14 @@ body{
     left: calc(50% - 140px/2);
     margin: 10px;
   }
+  .show-more1{
+    position: relative;
+    width: 140px;
+    height: 40px;
+    top: 150px;
+    right: 70px;
+    margin: 10px;
+  }
   .avatar{
     background: black;
     width: 300px;
