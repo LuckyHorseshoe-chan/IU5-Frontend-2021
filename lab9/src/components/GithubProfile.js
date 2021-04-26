@@ -50,7 +50,8 @@ import {ReactComponent as Followers} from './following-svgrepo-com.svg'
           <p>Repositories: {public_repos}</p> 
           <div className="repo-list">
             {ShowState.repositories.slice(0, ShowState.itemsToShow).map((repa) => <div className="repository">{repa.name}</div>)}
-            {ShowState.itemsToShow % 2 === 0 ?
+            {ShowState.repositories.length > 8 ?
+            (ShowState.itemsToShow % 2 === 0 ?
               <button className="show-more" onClick={showMore}>
                 {ShowState.expanded ? (
                   <span>Show less</span>
@@ -65,7 +66,7 @@ import {ReactComponent as Followers} from './following-svgrepo-com.svg'
               ) : (
                 <span>Show more</span>
               )}
-            </button>
+            </button>) : <div></div>
             }
             
           </div>
