@@ -1,4 +1,6 @@
 import React from 'react';
+import {ReactComponent as Star} from './star.svg'
+import {ReactComponent as Followers} from './following-svgrepo-com.svg'
 
   function GithubProfile(
     {login, 
@@ -33,12 +35,12 @@ import React from 'react';
           <h1>{login}</h1>
           <button className="follow">Follow</button>
           <div className="characteristics">
-            <img className='icon' src='./following-svgrepo-com.svg'/>
+            <Followers className='icon'/>
             <p>{followers} followers</p>
             <div className="point"></div>
             <p>{following} following</p>
             <div className="point"></div>
-            <img className='icon' src='./star.svg'/>
+            <Star className='icon'/>
             <p>{starred}</p>
           </div>
           <p>Created at: {created_date} <br/><br/>Updated at: {updated_date}</p>
