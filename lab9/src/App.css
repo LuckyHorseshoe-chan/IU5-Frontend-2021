@@ -236,12 +236,19 @@ body{
     width: 90%;
     height: 10%;
     margin: 2%;
-    font-size: 20px;
+    font-size: 15px;
     color: blue;
     border: 1px solid gray;
     border-radius: 20px;
   }
   .show-more{
+    position: relative;
+    width: 140px;
+    height: 40px;
+    left: 0;
+    margin: 10px;
+  }
+  .show-more1{
     position: relative;
     width: 140px;
     height: 40px;
