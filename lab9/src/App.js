@@ -44,17 +44,23 @@ function App() {
   }
   useEffect(() => {
     let url ='https://api.github.com/users/'
-    fetch(url + user.login, { Authorization: `Token ${process.env.REACT_APP_API_KEY}`})
+    // fetch(url + user.login, { 
+    //   headers: {
+    //     'Authorization': `Token ${process.env.REACT_APP_API_KEY}`
+    //   }
+    // })
+    fetch(url + user.login)
     .then((response) => {
       return response.json();
     })
     .then((data) => {
+      console.log(data)
       if(data.avatar_url === undefined){
         console.log('user doesn\'t exist');
         user.login = "not_found";
         return;
       }
-      fetch(data.starred_url.slice(0, -15), { Authorization: `Token ${process.env.REACT_APP_API_KEY}`})
+      fetch(data.starred_url.slice(0, -15))
       .then((response) => {
         return response.json();
       })
@@ -62,7 +68,7 @@ function App() {
         user.starred = data.length;
         return;
       });
-      fetch(data.repos_url, { Authorization: `Token ${process.env.REACT_APP_API_KEY}`})
+      fetch(data.repos_url)
         .then((response) => {
           return response.json();
         })
