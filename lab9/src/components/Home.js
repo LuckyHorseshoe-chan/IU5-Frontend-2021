@@ -5,7 +5,6 @@ import {
 function Home({onChange, onKeyPress, temp}) {
     let history = useHistory();
     if({temp}.temp){
-      console.log('Yes');
       history.push("/search");
     }
     return (

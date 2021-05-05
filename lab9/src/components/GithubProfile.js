@@ -3,7 +3,6 @@ import {ReactComponent as Star} from './star.svg'
 import {ReactComponent as Followers} from './following-svgrepo-com.svg'
 
   function GithubProfile({user}){
-    console.log(user.repos);
       const itemsToShow = Math.min(8, user.repos.length);
       const [ShowState, setShowState] = React.useState({
         repositories: user.repos,
@@ -17,9 +16,6 @@ import {ReactComponent as Followers} from './following-svgrepo-com.svg'
           setShowState({ repositories: ShowState.repositories, itemsToShow: itemsToShow, expanded: false })
         )
       }
-      console.log("GithubProfile:")
-      console.log({user}.user.created_at)
-      console.log("GithubProfile end")
      const created_date = {user}.user.created_at.slice(0, 10) + " " + {user}.user.created_at.slice(11, 19);
      const updated_date = {user}.user.updated_at.slice(0, 10) + " " + {user}.user.updated_at.slice(11, 19);
       return(

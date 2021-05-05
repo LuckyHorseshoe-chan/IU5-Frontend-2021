@@ -44,11 +44,6 @@ function App() {
   }
   useEffect(() => {
     let url ='https://api.github.com/users/'
-    // fetch(url + user.login, { 
-    //   headers: {
-    //     'Authorization': `Token ${process.env.REACT_APP_API_KEY}`
-    //   }
-    // })
     fetch(url + user.login, { 
         Authorization: `Token ${process.env.REACT_APP_API_KEY1}`
       })
@@ -56,9 +51,7 @@ function App() {
       return response.json();
     })
     .then((data) => {
-      console.log(data)
       if(data.avatar_url === undefined){
-        console.log('user doesn\'t exist');
         user.login = "not_found";
         return;
       }
