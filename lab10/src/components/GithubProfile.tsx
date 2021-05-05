@@ -1,4 +1,4 @@
-import {User, showState} from '../store/content/types'
+import {User, showState} from '../store/user/types'
 import {ReactComponent as Star} from './star.svg'
 import {ReactComponent as Followers} from './following-svgrepo-com.svg'
 
@@ -21,6 +21,7 @@ const GithubProfile: React.FC<AllProps> = ({user}) => {
         expanded: false
     }
       function showMore() {
+        console.log('showMore() работает')
         ShowState.itemsToShow === 8 ? (
           ShowState = { repositories: ShowState.repositories, itemsToShow: ShowState.repositories.length, expanded: true }
         ) : (

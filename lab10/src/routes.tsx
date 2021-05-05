@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, HashRouter as Router } from 'react-router-dom';
 
 import  Search  from './components/Search'
 import  Home  from './components/Home';
@@ -7,21 +7,21 @@ import  Home  from './components/Home';
 
 const Routes: React.FC = () => (
     <div>
-        <Switch>
-            <Route
-                exact
-                path="/"
-                render={() => (
-                    <Home />
-                )}
-            />
-            <Route
-                path="/search"
-                render={() => (
-                    <Search />
-                )}
-            />
-        </Switch>
+        <Router>
+            <Switch>
+                <Route
+                    exact
+                    path="/"
+                    render={() => (
+                        <Home />
+                    )}
+                />
+                <Route
+                    path="/search"
+                    component={Search}
+                />
+            </Switch>
+        </Router>
     </div>
 );
 
