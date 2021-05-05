@@ -4,7 +4,6 @@ import { useActions } from "../hooks";
 
 const Home: React.FC = () => {
     const searchInput = useRef<HTMLInputElement>(null);
-  //  const searchButton = useRef<SVGSVGElement>(null);
     const {setUser} = useActions()
     const history = useHistory()
 

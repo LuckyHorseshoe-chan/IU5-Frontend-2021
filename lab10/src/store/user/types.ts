@@ -7,7 +7,8 @@ export interface User{
     following: number,
     public_repos: number,
     created_at: string, 
-    updated_at: string
+    updated_at: string,
+    show_more_button: showState
 }
 export interface showState{
     repositories: Array<string>,
@@ -22,10 +23,15 @@ export interface UserState {
 }
 
 export enum UserActionTypes {
+    CHANGE_SHOW_STATE = "CHANGE_SHOW_STATE",
     SET_USERNAME = "SET_USERNAME",
     FETCH_USER = "FETCH_USER",
     FETCH_USER_SUCCESS = "FETCH_USER_SUCCESS",
     FETCH_USER_ERROR = "FETCH_USER_ERROR",
+}
+export interface ChangeShowState{
+    type: UserActionTypes.CHANGE_SHOW_STATE;
+    payload: object;
 }
 interface FetchUserAction {
     type: UserActionTypes.FETCH_USER;
@@ -43,4 +49,4 @@ interface SetUsernameAction {
     payload: string
 }
 
-export type UserAction = FetchUserAction | FetchUserSuccessAction | FetchUserErrorAction | SetUsernameAction
+export type UserAction = FetchUserAction | FetchUserSuccessAction | FetchUserErrorAction | SetUsernameAction | ChangeShowState
