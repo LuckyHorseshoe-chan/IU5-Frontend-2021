@@ -48,14 +48,12 @@ export const fetchUser = (username: string | null) => {
         };
         try {
             dispatch({type: UserActionTypes.FETCH_USER})
-            // const requestHeaders: HeadersInit = new Headers();
-            // requestHeaders.set("Authorization", process.env.REACT_APP_API_KEY1!);
-            // const url = "https://api.github.com/users/" + username;
-            // fetch(url, {
-            //     headers: requestHeaders
-            // })
+            const requestHeaders: HeadersInit = new Headers();
+            requestHeaders.set("Authorization", process.env.REACT_APP_API_KEY1!);
             const url = "https://api.github.com/users/" + username;
-            fetch(url)
+            fetch(url, {
+                headers: requestHeaders
+            })
             .then((response)=>response.json())
             .then((json)=> {
                 if (json.message === "Not Found") {
@@ -71,11 +69,15 @@ export const fetchUser = (username: string | null) => {
                     user.public_repos = json.public_repos;
                     user.created_at = json.created_at; 
                     user.updated_at = json.updated_at;
-                    fetch(json.starred_url.slice(0, -15))
+                    fetch(json.starred_url.slice(0, -15), {
+                        headers: requestHeaders
+                    })
                     .then((response) => response.json())
                     .then((data) => {
                         user.starred = data.length;
-                        fetch(json.repos_url)
+                        fetch(json.repos_url, {
+                            headers: requestHeaders
+                        })
                         .then((response) =>  response.json())
                         .then((data) =>{
                             user.repos = data.map((val : any) => val.name);
